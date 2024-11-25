@@ -1,114 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="e8d01e1d47ac1610ce0feb0f316d4305" sys_domain="global" table="x_1210081_school_0_student_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>tuition</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>e458d41e83341210a52c5d70deaad3a3</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>7628049e830a1210a52c5d70deaad381</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>7228049e830a1210a52c5d70deaad382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>student_name</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>6c58d41e83341210a52c5d70deaad3a3</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>f628049e830a1210a52c5d70deaad382</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gender</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>e058d41e83341210a52c5d70deaad3a4</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>7e28049e830a1210a52c5d70deaad382</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_glide_date_1</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>6858d41e83341210a52c5d70deaad3a4</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>f228049e830a1210a52c5d70deaad383</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>grade</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>ec58d41e83341210a52c5d70deaad3a4</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>7a28049e830a1210a52c5d70deaad383</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>6458d41e83341210a52c5d70deaad3a5</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>fe28049e830a1210a52c5d70deaad383</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>e858d41e83341210a52c5d70deaad3a5</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>7628049e830a1210a52c5d70deaad384</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>previous_records</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-24 08:58:30</sys_created_on>
-            <sys_id>6058d41e83341210a52c5d70deaad3a6</sys_id>
+            <sys_created_on>2024-11-25 11:06:26</sys_created_on>
+            <sys_id>fa28049e830a1210a52c5d70deaad384</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">e8d01e1d47ac1610ce0feb0f316d4305</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 08:58:30</sys_updated_on>
+            <sys_updated_on>2024-11-25 11:06:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

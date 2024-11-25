@@ -17,6 +17,7 @@
                 <element inactive_on_update="false" label="Pass" sequence="1" value="pass"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Tuition" max_length="40" name="tuition" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date Of Birth" max_length="40" name="u_glide_date_1" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true;whatsapp" label="Guardian Mobile Number" max_length="40" name="mobile_number" reference_qual="null" reference_qual_condition="null" type="string"/>
         <element label="Previous Records" max_length="40" name="previous_records" type="file_attachment"/>
