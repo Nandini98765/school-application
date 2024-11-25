@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1210081_school_0_School details.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <html>
+        <head>
+            <title>Delhi Public School Information</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    color: #333;
+                }
+                h1, h2, h3 {
+                    color: #2E8B57;
+                }
+                .section-title {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+                .fee-table, .staff-table, .activities-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: 10px;
+                }
+                .fee-table th, .fee-table td,
+                .staff-table th, .staff-table td,
+                .activities-table th, .activities-table td {
+                    border: 1px solid #ccc;
+                    padding: 8px;
+                    text-align: left;
+                }
+                .fee-table th, .staff-table th, .activities-table th {
+                    background-color: #f2f2f2;
+                }
+                .landmark, .contact-info {
+                    margin-top: 10px;
+                }
+                .contact-info {
+                    font-size: 14px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Delhi Public School</h1>
+            <p>Established: 1995</p>
+            <p>Principal: Madhan Reddy</p>
+            <p>School Timings: 9 am to 4 pm</p>
+
+            <div class="section-title">School Address</div>
+            <p>Delhi Public School, Nacharam, Hyderabad, 500076.</p>
+            <p>Landmark: Opposite Prasad Hospital.</p>
+
+            <div class="section-title">Fee Structure</div>
+            <table class="fee-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Admission Fee (One-time)</th>
+                    <th>Books Fee (per year)</th>
+                    <th>Bus Fee (per year)</th>
+                    <th>Student Fee (per year)</th>
+                    <th>Total Annual Fee (excluding optional services)</th>
+                </tr>
+                <tr>
+                    <td>Pre-Primary (Nursery, LKG, UKG)</td>
+                    <td>$300</td>
+                    <td>$100</td>
+                    <td>Within 5 km: $500<br></br>5 - 10 km: $750<br></br>Above 10 km: $1,000</td>
+                    <td>$300</td>
+                    <td>$400 - $400</td>
+                </tr>
+                <tr>
+                    <td>Primary School (Class 1 - 5)</td>
+                    <td>$400</td>
+                    <td>$150</td>
+                    <td>Within 5 km: $500<br></br>5 - 10 km: $750<br></br>Above 10 km: $1,000</td>
+                    <td>$400</td>
+                    <td>$1,000 - $1,550</td>
+                </tr>
+                <tr>
+                    <td>Middle School (Class 6 - 8)</td>
+                    <td>$500</td>
+                    <td>$175</td>
+                    <td>Within 5 km: $500<br></br>5 - 10 km: $750<br></br>Above 10 km: $1,000</td>
+                    <td>$450</td>
+                    <td>$1,100 - $1,625</td>
+                </tr>
+                <tr>
+                    <td>High School (Class 9 - 10)</td>
+                    <td>$600</td>
+                    <td>$200</td>
+                    <td>Within 5 km: $500<br></br>5 - 10 km: $750<br></br>Above 10 km: $1,000</td>
+                    <td>$500</td>
+                    <td>$1,300 - $1,700</td>
+                </tr>
+            </table>
+
+            <div class="section-title">Total Fees</div>
+            <table class="fee-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Total Annual Fee (excluding optional services)</th>
+                </tr>
+                <tr>
+                    <td>Pre-Primary</td>
+                    <td>$400 - $400</td>
+                </tr>
+                <tr>
+                    <td>Primary School</td>
+                    <td>$1,000 - $1,550</td>
+                </tr>
+                <tr>
+                    <td>Middle School</td>
+                    <td>$1,100 - $1,625</td>
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td>$1,300 - $1,700</td>
+                </tr>
+            </table>
+
+            <div class="section-title">Facilities</div>
+            <p>Labs: Fully equipped Science, Computer, and Language labs.</p>
+            <p>Library: Extensive collection of academic and reference materials.</p>
+
+            <div class="section-title">Sports and Extracurricular Activities</div>
+            <table class="activities-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Activities</th>
+                </tr>
+                <tr>
+                    <td>Sports</td>
+                    <td>Volleyball, Kho-Kho, Kabaddi, Yoga, Basketball, Football, Badminton, Table Tennis, Athletics</td>
+                </tr>
+                <tr>
+                    <td>Extracurricular Activities</td>
+                    <td>Music, Dance, Art, Drama</td>
+                </tr>
+            </table>
+
+            <div class="section-title">Scholarship Information</div>
+            <p>Merit-based Scholarships: Awarded to students based on academic excellence and achievements.</p>
+            <p>Need-based Scholarships: Provided to students based on financial need and specific eligibility criteria.</p>
+
+            <div class="section-title">Staff</div>
+            <table class="staff-table">
+                <tr>
+                    <th>Subject</th>
+                    <th>Number of Teachers</th>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Telugu</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Social Studies</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Biology</td>
+                    <td>5</td>
+                </tr>
+            </table>
+            <p>Support Staff: 10 staff members ensuring smooth operations.</p>
+
+            <div class="section-title">Achievements</div>
+            <p>Academic Scholarships: Awarded to students who achieve high grades or excel in standardized tests.</p>
+            <p>Scholarships for Disabled Students: Designed to support students with disabilities in accessing education.</p>
+            <p>Scholarships for Children of Veterans: Awarded to children of military personnel or veterans.</p>
+
+            <div class="section-title">Additional Information</div>
+            <p><strong>School Timings:</strong></p>
+            <p>Monday to Friday: 9 am to 4 pm</p>
+            <p>Saturday: 9 am to 2 pm</p>
+            <p>Sunday: Closed</p>
+
+            <div class="section-title">Activities</div>
+            <p><strong>Cultural Performances:</strong> Annual Day features a variety of cultural performances, reflecting the diversity and talents of the student body.</p>
+            <p><strong>Theme-Based Programs:</strong> Themed events such as "Unity in Diversity" or "Environmental Awareness."</p>
+            <p><strong>Awards and Recognition:</strong> Includes an award ceremony recognizing student achievements.</p>
+            <p><strong>Guest Speakers:</strong> Prominent personalities or alumni are often invited as guest speakers.</p>
+            <p><strong>Family Involvement:</strong> Parents and family members are invited to attend and celebrate with students.</p>
+            <p><strong>Sports Day:</strong> Includes athletic competitions, team sports, and special races.</p>
+            <p><strong>Science Fair:</strong> Showcases innovative projects, interactive exhibits, and competitions focusing on STEM education.</p>
+
+            <div class="section-title">Contact Information</div>
+            <p class="contact-info">For further details, please contact the school office at <strong>6302051396</strong>.</p>
+        </body>
+    </html>
+</j:jelly>
+]]></html>
+        <name>School details</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 10:42:15</sys_created_on>
+        <sys_id>e746f63947941210ce0feb0f316d433f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>School details</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_ui_page_e746f63947941210ce0feb0f316d433f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 10:43:30</sys_updated_on>
+    </sys_ui_page>
+</record_update>

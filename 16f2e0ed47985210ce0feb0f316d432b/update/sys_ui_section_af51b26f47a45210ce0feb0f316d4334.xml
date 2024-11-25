@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Student Progress" section_id="af51b26f47a45210ce0feb0f316d4334" sys_domain="global" table="x_1210081_school_0_student_progress" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telugu1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>e751b26f47a45210ce0feb0f316d43b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hindi</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>6f51b26f47a45210ce0feb0f316d43b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_integer_3</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>e351b26f47a45210ce0feb0f316d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>maths</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>6b51b26f47a45210ce0feb0f316d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>science</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>ef51b26f47a45210ce0feb0f316d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>social</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>6751b26f47a45210ce0feb0f316d43b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>fb51b26f47a45210ce0feb0f316d43b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>7351b26f47a45210ce0feb0f316d43b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>average</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>f751b26f47a45210ce0feb0f316d43b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>result</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>7f51b26f47a45210ce0feb0f316d43b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>section</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_id>f351b26f47a45210ce0feb0f316d43b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Progress" display_value="Student Progress" name="x_1210081_school_0_student_progress" sys_domain="global" view="Default view">af51b26f47a45210ce0feb0f316d4334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Student Progress</caption>
+            <header>false</header>
+            <name>x_1210081_school_0_student_progress</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 07:03:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af51b26f47a45210ce0feb0f316d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1210081_school_0_student_progress</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_ui_section_af51b26f47a45210ce0feb0f316d4334</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 07:03:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

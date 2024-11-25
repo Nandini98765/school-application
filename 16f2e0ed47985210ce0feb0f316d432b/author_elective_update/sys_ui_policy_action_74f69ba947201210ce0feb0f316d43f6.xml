@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>assigned_to</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:40:31</sys_created_on>
+        <sys_id>74f69ba947201210ce0feb0f316d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_74f69ba947201210ce0feb0f316d43f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 04:40:31</sys_updated_on>
+        <table>x_1210081_school_0_student_request</table>
+        <ui_policy display_value="assigned to is default Admission group">c816d76947201210ce0feb0f316d43e6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=74f69ba947201210ce0feb0f316d43f6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_policy_action_74f69ba947201210ce0feb0f316d43f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>assigned_to</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-10 04:40:31</sys_created_on><sys_id>74f69ba947201210ce0feb0f316d43f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_ui_policy_action_74f69ba947201210ce0feb0f316d43f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-10 04:40:31</sys_updated_on><table>x_1210081_school_0_student_request</table><ui_policy display_value="assigned to is default Admission group">c816d76947201210ce0feb0f316d43e6</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=74f69ba947201210ce0feb0f316d43f6"/></record_update>]]></payload>
+        <payload_hash>2016178489</payload_hash>
+        <record_name>assigned_to</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:40:31</sys_created_on>
+        <sys_id>4d071b6947201210ce0feb0f316d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191da3bb5eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 04:40:31</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>41071b696520121093bce650f2276840</update_guid>
+        <update_guid_history>41071b696520121093bce650f2276840:2016178489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:06:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>06bed15eb781413880c6eddf1f3d3f79</sys_id>
+        <sys_metadata>74f69ba947201210ce0feb0f316d43f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="assigned to is default Admission group">c816d76947201210ce0feb0f316d43e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_74f69ba947201210ce0feb0f316d43f6</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_74f69ba947201210ce0feb0f316d43f6">4d071b6947201210ce0feb0f316d4340</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 05:06:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

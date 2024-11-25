@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>fee details</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var grade = g_form.getValue('grade').toLowerCase();  // Convert to lowercase to avoid case sensitivity
+
+    // Nursery, LKG, UKG
+    if (grade === 'nursary' || grade === 'lkg' || grade === 'ukg') {
+        g_form.setValue('u_integer_1', '120000');
+        g_form.setValue('bus_fee', '18000');
+        g_form.setValue('uniform_fee', '1200');
+        g_form.setValue('books_fee', '800');
+
+    // 1st class to 5th class
+    } else if (grade === '1st class' || grade === '2nd class' || 
+               grade === '3rd class' || grade === '4th class' || 
+               grade === '5th class') {
+        g_form.setValue('u_integer_1', '150000');
+        g_form.setValue('bus_fee', '18000');
+        g_form.setValue('uniform_fee', '2000');
+        g_form.setValue('books_fee', '1500');
+
+    // 6th class to 10th class
+    } else if (grade === '6th class' || grade === '7th class' || 
+               grade === '8th class' || grade === '9th class' || 
+               grade === '10th class') {
+        g_form.setValue('u_integer_1', '180000');
+        g_form.setValue('bus_fee', '18000');
+        g_form.setValue('uniform_fee', '4000');
+        g_form.setValue('books_fee', '3500');
+
+    // Clear fields if grade doesn't match any of the above
+    } else {
+        g_form.clearValue('u_integer_1');
+        g_form.clearValue('bus_fee');
+        g_form.clearValue('uniform_fee');
+        g_form.clearValue('books_fee');
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 04:35:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>022fcaef47e05210ce0feb0f316d43f9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>fee details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_022fcaef47e05210ce0feb0f316d43f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 09:05:25</sys_updated_on>
+        <table>x_1210081_school_0_admission_table</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

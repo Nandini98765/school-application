@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>mobile_number</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>mobile number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+
+    // Get the value from the mobile_number field
+    var mobileNumber = g_form.getValue("mobile_number");
+
+    // Define a regular expression to allow only digits
+    var regex = /^[0-9]*$/;
+
+    // Get the custom error message field
+    var errorField = 'mobile_number_error'; // Replace with the actual name of the custom field
+
+    // Check if the mobile number contains non-numeric characters
+    if (!regex.test(mobileNumber)) {
+        // Display error message in the custom field
+        g_form.setValue(errorField, 'Please enter only numeric values in the mobile number field.');
+        
+        // Optionally, clear the invalid input
+        g_form.setValue('mobile_number', '');
+        
+        // Set focus back to the field
+        g_form.getControl('mobile_number').focus();
+    } else {
+        // Clear the error message if input is valid
+        g_form.setValue(errorField, '');
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 12:07:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e9c470847281210ce0feb0f316d43d6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>mobile number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_3e9c470847281210ce0feb0f316d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 12:19:00</sys_updated_on>
+        <table>x_1210081_school_0_student_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_script_client_3e9c470847281210ce0feb0f316d43d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;mobile_number&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;mobile number&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+
+    // Get the value from the mobile_number field
+    var mobileNumber = g_form.getValue("mobile_number");
+
+    // Define a regular expression to allow only digits
+    var regex = /^[0-9]*$/;
+
+    // Get the custom error message field
+    var errorField = 'mobile_number_error'; // Replace with the actual name of the custom field
+
+    // Check if the mobile number contains non-numeric characters
+    if (!regex.test(mobileNumber)) {
+        // Display error message in the custom field
+        g_form.setValue(errorField, 'Please enter only numeric values in the mobile number field.');
+        
+        // Optionally, clear the invalid input
+        g_form.setValue('mobile_number', '');
+        
+        // Set focus back to the field
+        g_form.getControl('mobile_number').focus();
+    } else {
+        // Clear the error message if input is valid
+        g_form.setValue(errorField, '');
+    }
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-05 12:07:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3e9c470847281210ce0feb0f316d43d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;mobile number&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="School management" source="x_1210081_school_0"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School management"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3e9c470847281210ce0feb0f316d43d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-05 12:19:00&lt;/sys_updated_on&gt;&lt;table&gt;x_1210081_school_0_student_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2041018167</payload_hash>
+        <record_name>mobile number</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 12:19:00</sys_created_on>
+        <sys_id>c800d7c847281210ce0feb0f316d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191c21fa7f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 12:19:00</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>8000d7c88a2812107de0ad13654d1233</update_guid>
+        <update_guid_history>8000d7c88a2812107de0ad13654d1233:2041018167,06af03c89f2812109747a293ca87d233:1894174244,7fce83c803281210a94bb03b010d8858:-873129267,8ccecf48a928121091c1bc9278bf2abe:-1095435651,b2dd87c43028121042a89eafa229e667:-62581999,ed6dc3c4722812104088cf2757f8126c:172871512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 12:23:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>036359d4f10b4704bbe7e1966617e910</sys_id>
+        <sys_metadata>3e9c470847281210ce0feb0f316d43d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile number</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="Student Request">a99571b747d41210ce0feb0f316d4375</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_script_client_3e9c470847281210ce0feb0f316d43d6</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3e9c470847281210ce0feb0f316d43d6">c800d7c847281210ce0feb0f316d4333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 12:23:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

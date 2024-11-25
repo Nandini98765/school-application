@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>whatsapp</name>
+        <scoped_name>x_1210081_school_0_whatsapp</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 05:33:36</sys_created_on>
+        <sys_id>99d9adf147101210ce0feb0f316d4345</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>whatsapp</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_ui_macro_99d9adf147101210ce0feb0f316d4345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 12:06:41</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <a>
+        <img src="x_1210081_school_0.whatsapp.jpg" width="40" height="30"
+             onclick="userwindow('${ref}')"></img>
+    </a>
+
+    <script>
+        function userwindow(reference) {
+            alert('Image clicked! Preparing to open WhatsApp...');
+            // Fetching values from the form fields directly
+            var studentName = g_form.getValue('student_name');
+            var mobileNumber = g_form.getValue('mobile_number');
+            var marks = g_form.getValue('marks');
+            var result = g_form.getValue('result');
+            var grade = g_form.getValue('grade');
+            var email = g_form.getValue('email');
+			var link = 'https://schooldetils.netlify.app/'
+
+			var demotext = 'Hi,\n' +
+               'Student Name: ' + studentName + '\n' +
+               'Mobile Number: ' + mobileNumber + '\n' +
+               'Marks: ' + marks + '\n' +
+               'Result: ' + result + '\n' +
+               'Grade: ' + grade + '\n' +
+'For More Details about Delhi Public School:'+ link + '\n' +
+               'Email ID: ' + email ;
+			      
+            
+
+            // Clean up the mobile number (if necessary)
+            mobileNumber = mobileNumber.replace(/[^0-9]+/gi, '');
+
+            // Debugging to verify values
+            console.log("Mobile:", mobileNumber);
+            console.log("Message:", demotext);
+
+            // If mobile number exists, open WhatsApp link
+            if (mobileNumber) {
+				// alert("iffff")
+                var whatsappURL = 'https://wa.me/' + mobileNumber + '?text=' + encodeURIComponent(demotext);
+                //alert('Opening WhatsApp: ' + whatsappURL);
+                open(whatsappURL, '_blank');
+            } else {
+                 alert('Mobile phone number not found.');
+            }
+        }
+    </script>
+</j:jelly>
+
+]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_macro_99d9adf147101210ce0feb0f316d4345</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;whatsapp&lt;/name&gt;&lt;scoped_name&gt;x_1210081_school_0_whatsapp&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-29 05:33:36&lt;/sys_created_on&gt;&lt;sys_id&gt;99d9adf147101210ce0feb0f316d4345&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;whatsapp&lt;/sys_name&gt;&lt;sys_package display_value="School management" source="x_1210081_school_0"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School management"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_99d9adf147101210ce0feb0f316d4345&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-03 12:06:41&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+    &lt;a&gt;
+        &lt;img src="x_1210081_school_0.whatsapp.jpg" width="40" height="30"
+             onclick="userwindow('${ref}')"&gt;&lt;/img&gt;
+    &lt;/a&gt;
+
+    &lt;script&gt;
+        function userwindow(reference) {
+            alert('Image clicked! Preparing to open WhatsApp...');
+            // Fetching values from the form fields directly
+            var studentName = g_form.getValue('student_name');
+            var mobileNumber = g_form.getValue('mobile_number');
+            var marks = g_form.getValue('marks');
+            var result = g_form.getValue('result');
+            var grade = g_form.getValue('grade');
+            var email = g_form.getValue('email');
+			var link = 'https://schooldetils.netlify.app/'
+
+			var demotext = 'Hi,\n' +
+               'Student Name: ' + studentName + '\n' +
+               'Mobile Number: ' + mobileNumber + '\n' +
+               'Marks: ' + marks + '\n' +
+               'Result: ' + result + '\n' +
+               'Grade: ' + grade + '\n' +
+'For More Details about Delhi Public School:'+ link + '\n' +
+               'Email ID: ' + email ;
+			      
+            
+
+            // Clean up the mobile number (if necessary)
+            mobileNumber = mobileNumber.replace(/[^0-9]+/gi, '');
+
+            // Debugging to verify values
+            console.log("Mobile:", mobileNumber);
+            console.log("Message:", demotext);
+
+            // If mobile number exists, open WhatsApp link
+            if (mobileNumber) {
+				// alert("iffff")
+                var whatsappURL = 'https://wa.me/' + mobileNumber + '?text=' + encodeURIComponent(demotext);
+                //alert('Opening WhatsApp: ' + whatsappURL);
+                open(whatsappURL, '_blank');
+            } else {
+                 alert('Mobile phone number not found.');
+            }
+        }
+    &lt;/script&gt;
+&lt;/j:jelly&gt;
+
+]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-442181612</payload_hash>
+        <record_name>whatsapp</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 12:06:41</sys_created_on>
+        <sys_id>1c0a38a747181210ce0feb0f316d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b7c7a93b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 12:06:41</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>500a38a7fb18121039192c0755cf6e77</update_guid>
+        <update_guid_history>500a38a7fb18121039192c0755cf6e77:-442181612,cf13742fa7d41210e902f08d087d1d3d:697778096,4782706bc2d412109ce8e301ff260cf5:-248921193,2f51b06bfed412109d10e4d14897054b:-1370479589,b06fa82b95d412104f9cd67e4df20b22:393114868,ba8e606373d412105cdb43f08d500fbb:-366372910,36c8b68a2610121072f40ae2f68d591f:-907524738,ebb7323d5794121000de973ea8b11b62:325188172,5af9e2b12f5412108b3c6e5f892e7de2:1367535993,7d39e2b14b541210a7e5f9b643a336de:1763848764,1697a235bd541210e248628b5218c324:-84669115,2876a2353e54121025f09d589b70e520:781693329,a895eaf1fb541210606325212d6a5e88:-1079674328,1c432e75d0141210a466543ea2e86f1b:742701701,c78cda754f14121069c6df3fedaa8386:535579833,0c0cd675ee141210181eb5a750bca200:97574191,f05b9a7571141210a8f9c64c8522ccc9:1531886773,794a5a353f141210be0ac7672825d376:1202780386,5b9996fd1ed012107bcd3ec230bcdc09:-462505609,59871e71d414121008de5b7a68e22363:-639354663,5fbf357169901210f4ae80953e30ee44:-1863415785,2d8f3171609012100e4f5cf9176147f4:111299654,8b4e35fd21501210c4616483e6ae8524:-2026014367,0365b5f16c501210385c38540802242f:-9490186,a910753dca1012107a567a04b089328b:1599072195</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 11:20:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>1fb6b5e1099544cb88830c8bfdb98491</sys_id>
+        <sys_metadata>99d9adf147101210ce0feb0f316d4345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>whatsapp</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_99d9adf147101210ce0feb0f316d4345</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_99d9adf147101210ce0feb0f316d4345">1c0a38a747181210ce0feb0f316d4377</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:20:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

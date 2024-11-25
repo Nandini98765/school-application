@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>admission_number</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>student name</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var admin = g_form.getReference('number');
+
+   g_form.setValue('u_string_1','admin.u_string_1');
+    g_form.setValue('gaurdian_name','admin.gaurdian_name');
+       g_form.setValue('mobile_number','admin.mobile_number');
+      g_form.setValue('gmail','admin.gmail');
+   
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 06:12:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e767b49c47301210ce0feb0f316d43e4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>student name</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_e767b49c47301210ce0feb0f316d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 06:50:39</sys_updated_on>
+        <table>x_1210081_school_0_student_progress</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_script_client_e767b49c47301210ce0feb0f316d43e4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;admission_number&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;student name&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var admin = g_form.getReference('number');
+
+   g_form.setValue('u_string_1','admin.u_string_1');
+    g_form.setValue('gaurdian_name','admin.gaurdian_name');
+       g_form.setValue('mobile_number','admin.mobile_number');
+      g_form.setValue('gmail','admin.gmail');
+   
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-18 06:12:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e767b49c47301210ce0feb0f316d43e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;student name&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="School management" source="x_1210081_school_0"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School management"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e767b49c47301210ce0feb0f316d43e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-18 06:50:39&lt;/sys_updated_on&gt;&lt;table&gt;x_1210081_school_0_student_progress&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1329070735</payload_hash>
+        <record_name>student name</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 06:50:39</sys_created_on>
+        <sys_id>7c81451047b01210ce0feb0f316d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19203e5b6890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 06:50:39</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3481451061b01210b1ac680819600a5e</update_guid>
+        <update_guid_history>3481451061b01210b1ac680819600a5e:-1329070735,38493810e4b012108307e5141ad8cf33:-1471944857,d5b830dca670121021037179418bb347:243811861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 08:29:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6e7f4a9e2a8f472f96d7c1bf592d05a1</sys_id>
+        <sys_metadata>e767b49c47301210ce0feb0f316d43e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>student name</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="Student Progress">d8dcb65747e01210ce0feb0f316d43a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_script_client_e767b49c47301210ce0feb0f316d43e4</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e767b49c47301210ce0feb0f316d43e4">7c81451047b01210ce0feb0f316d435e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 08:29:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

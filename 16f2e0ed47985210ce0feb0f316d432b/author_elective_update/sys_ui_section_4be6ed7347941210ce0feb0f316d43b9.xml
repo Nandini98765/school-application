@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Req table" section_id="4be6ed7347941210ce0feb0f316d43b9" sys_domain="global" table="x_1210081_school_0_student_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_1210081_school_0_request_table.REL:c0c9760a47101210ce0feb0f316d439a</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 10:01:25</sys_created_on>
+            <sys_id>cfe6ed7347941210ce0feb0f316d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Req table" display_value="Req table" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">4be6ed7347941210ce0feb0f316d43b9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 10:01:25</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Req table</caption>
+            <header>false</header>
+            <name>x_1210081_school_0_student_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 10:01:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4be6ed7347941210ce0feb0f316d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1210081_school_0_student_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_ui_section_4be6ed7347941210ce0feb0f316d43b9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 10:01:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_section_4be6ed7347941210ce0feb0f316d43b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Req table" section_id="4be6ed7347941210ce0feb0f316d43b9" sys_domain="global" table="x_1210081_school_0_student_request" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>REL.x_1210081_school_0_request_table.REL:c0c9760a47101210ce0feb0f316d439a</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 10:01:25</sys_created_on><sys_id>cfe6ed7347941210ce0feb0f316d43ba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Req table" display_value="Req table" name="x_1210081_school_0_student_request" sys_domain="global" view="Default view">4be6ed7347941210ce0feb0f316d43b9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 10:01:25</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Req table</caption><header>false</header><name>x_1210081_school_0_student_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 10:01:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4be6ed7347941210ce0feb0f316d43b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1210081_school_0_student_request</sys_name><sys_overrides/><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_ui_section_4be6ed7347941210ce0feb0f316d43b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 10:01:25</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>869756307</payload_hash>
+        <record_name>Student Request</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 10:01:25</sys_created_on>
+        <sys_id>47e6ed7347941210ce0feb0f316d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bc7b56c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 10:01:25</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>cbe6ed73a6941210ef44a2e156815abc</update_guid>
+        <update_guid_history>cbe6ed73a6941210ef44a2e156815abc:869756307</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 10:58:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>24dd4e0c91ac4e849711a205e2670b84</sys_id>
+        <sys_metadata>4be6ed7347941210ce0feb0f316d43b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Req table</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="">9156e53347941210ce0feb0f316d43ae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4be6ed7347941210ce0feb0f316d43b9</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4be6ed7347941210ce0feb0f316d43b9">47e6ed7347941210ce0feb0f316d43bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 10:58:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

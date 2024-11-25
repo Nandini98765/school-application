@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_integer_2</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Terms fee1</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+//   function calculateDueFee() {
+  // Get the values of tuition and bus fees for each term
+  var term1Tuition = parseFloat(g_form.getValue('Tuition_Fee_Term_1'));
+  var term1BusFee = parseFloat(g_form.getValue('Bus_Fee_Term_1'));
+  var term2Tuition = parseFloat(g_form.getValue('Tuition_Fee_Term_2'));
+  var term2BusFee = parseFloat(g_form.getValue('Bus_Fee_Term_2'));
+  var term3Tuition = parseFloat(g_form.getValue('Tuition_Fee_Term_3'));
+  var term3BusFee = parseFloat(g_form.getValue('Bus_Fee_Term_3'));
+
+  // Calculate the total fee for the year
+  var totalFee = term1Tuition + term2Tuition + term3Tuition + term1BusFee + term2BusFee + term3BusFee;
+
+  // Get the values of paid fees and check if the corresponding "Paid" checkboxes are checked
+  var paid1 = parseFloat(g_form.getValue('Paid_1'));
+  var paid2 = parseFloat(g_form.getValue('Paid_2'));
+  var paid3 = parseFloat(g_form.getValue('Paid_3'));
+  var isPaid1Checked = g_form.getValue('Paid_1_Check'); // Assuming you have a checkbox field named 'Paid_1_Check'
+  var isPaid2Checked = g_form.getValue('Paid_2_Check');
+  var isPaid3Checked = g_form.getValue('Paid_3_Check');
+
+  // Calculate the total paid fees based on checked checkboxes
+  var totalPaid = 0;
+  if (isPaid1Checked) {
+    totalPaid += paid1;
+  }
+  if (isPaid2Checked) {
+    totalPaid += paid2;
+  }
+  if (isPaid3Checked) {
+    totalPaid += paid3;
+  }
+
+  // Calculate the due fee
+  var dueFee = totalFee - totalPaid;
+
+  // Set the values of the fields
+  g_form.setValue('Total_Fee_for_the_Year', totalFee);
+  g_form.setValue('Total_due_fee_for_the_year', dueFee);
+}
+   
+// }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 04:54:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f656e01847301210ce0feb0f316d43c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Terms fee1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_f656e01847301210ce0feb0f316d43c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 05:01:57</sys_updated_on>
+        <table>x_1210081_school_0_admission_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_script_client_f656e01847301210ce0feb0f316d43c0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_integer_2&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Terms fee1&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+//   function calculateDueFee() {
+  // Get the values of tuition and bus fees for each term
+  var term1Tuition = parseFloat(g_form.getValue('Tuition_Fee_Term_1'));
+  var term1BusFee = parseFloat(g_form.getValue('Bus_Fee_Term_1'));
+  var term2Tuition = parseFloat(g_form.getValue('Tuition_Fee_Term_2'));
+  var term2BusFee = parseFloat(g_form.getValue('Bus_Fee_Term_2'));
+  var term3Tuition = parseFloat(g_form.getValue('Tuition_Fee_Term_3'));
+  var term3BusFee = parseFloat(g_form.getValue('Bus_Fee_Term_3'));
+
+  // Calculate the total fee for the year
+  var totalFee = term1Tuition + term2Tuition + term3Tuition + term1BusFee + term2BusFee + term3BusFee;
+
+  // Get the values of paid fees and check if the corresponding "Paid" checkboxes are checked
+  var paid1 = parseFloat(g_form.getValue('Paid_1'));
+  var paid2 = parseFloat(g_form.getValue('Paid_2'));
+  var paid3 = parseFloat(g_form.getValue('Paid_3'));
+  var isPaid1Checked = g_form.getValue('Paid_1_Check'); // Assuming you have a checkbox field named 'Paid_1_Check'
+  var isPaid2Checked = g_form.getValue('Paid_2_Check');
+  var isPaid3Checked = g_form.getValue('Paid_3_Check');
+
+  // Calculate the total paid fees based on checked checkboxes
+  var totalPaid = 0;
+  if (isPaid1Checked) {
+    totalPaid += paid1;
+  }
+  if (isPaid2Checked) {
+    totalPaid += paid2;
+  }
+  if (isPaid3Checked) {
+    totalPaid += paid3;
+  }
+
+  // Calculate the due fee
+  var dueFee = totalFee - totalPaid;
+
+  // Set the values of the fields
+  g_form.setValue('Total_Fee_for_the_Year', totalFee);
+  g_form.setValue('Total_due_fee_for_the_year', dueFee);
+}
+   
+// }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-18 04:54:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f656e01847301210ce0feb0f316d43c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Terms fee1&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="School management" source="x_1210081_school_0"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School management"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f656e01847301210ce0feb0f316d43c0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-18 05:01:57&lt;/sys_updated_on&gt;&lt;table&gt;x_1210081_school_0_admission_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1071938835</payload_hash>
+        <record_name>Terms fee1</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 05:01:57</sys_created_on>
+        <sys_id>b0a860d847301210ce0feb0f316d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192038234b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 05:01:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>78a860d8183012107262bf492daab12c</update_guid>
+        <update_guid_history>78a860d8183012107262bf492daab12c:-1071938835,4de664d4f830121073658489572ea1cb:-275109280</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 05:04:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6ebe1fed73eb469f8fc555a03ffb0249</sys_id>
+        <sys_metadata>f656e01847301210ce0feb0f316d43c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terms fee1</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="Admission table">238a714847601210ce0feb0f316d439a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_script_client_f656e01847301210ce0feb0f316d43c0</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f656e01847301210ce0feb0f316d43c0">b0a860d847301210ce0feb0f316d432d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 05:04:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

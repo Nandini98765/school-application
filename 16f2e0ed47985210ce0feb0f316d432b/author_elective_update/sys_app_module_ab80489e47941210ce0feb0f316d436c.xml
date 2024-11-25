@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Fee details">a380489e47941210ce0feb0f316d4369</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Fee details</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1210081_school_0_fee_details</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1210081_school_0.fee_details_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-30 10:43:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab80489e47941210ce0feb0f316d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fee details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_app_module_ab80489e47941210ce0feb0f316d436c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-30 10:43:17</sys_updated_on>
+        <timeline_page/>
+        <title>Fee details</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_app_module_ab80489e47941210ce0feb0f316d436c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Fee details">a380489e47941210ce0feb0f316d4369</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Fee details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1210081_school_0_fee_details</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1210081_school_0.fee_details_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-30 10:43:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab80489e47941210ce0feb0f316d436c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fee details</sys_name><sys_overrides/><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_app_module_ab80489e47941210ce0feb0f316d436c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-30 10:43:17</sys_updated_on><timeline_page/><title>Fee details</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-735418183</payload_hash>
+        <record_name>Fee details</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-30 10:43:17</sys_created_on>
+        <sys_id>6780489e47941210ce0feb0f316d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191a2e1e1670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-30 10:43:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6b80489eef941210477ca9fd428eaa6e</update_guid>
+        <update_guid_history>6b80489eef941210477ca9fd428eaa6e:-735418183</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fee details">afd5863f47181210ce0feb0f316d4386</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 12:16:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>005eee6eb4a144248f2039102c4b6619</sys_id>
+        <sys_metadata>ab80489e47941210ce0feb0f316d436c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fee details</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_app_module_ab80489e47941210ce0feb0f316d436c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ab80489e47941210ce0feb0f316d436c">6780489e47941210ce0feb0f316d436f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 12:16:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

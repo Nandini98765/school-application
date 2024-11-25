@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1131587000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>51cbc6c97743011031e3b3c64b5a9907</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>student_details</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.previous_records","label":"Trigger - Record Created or Updated➛Student Request Record➛Previous Records","reference":"","reference_display":"Previous Records","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1210081_school_0_student_request","column_name":"previous_records","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["previous_records"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Request Record","reference":"x_1210081_school_0_student_request","reference_display":"Student Request","type":"reference","base_type":"reference","usedInstances":{"b2023dce-c2ef-4b66-af63-bc3e56b14f4d":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.grade","label":"Trigger - Record Created or Updated➛Student Request Record➛Grade","reference":"","reference_display":"Grade","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"grade","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Nursary","used":false,"image":"","reference":false,"rawLabel":"Nursary","selected":false,"missing":false,"value":"nursary","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Lkg","used":false,"image":"","reference":false,"rawLabel":"Lkg","selected":false,"missing":false,"value":"lkg","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Ukg","used":false,"image":"","reference":false,"rawLabel":"Ukg","selected":false,"missing":false,"value":"ukg","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"1st Class","used":false,"image":"","reference":false,"rawLabel":"1st Class","selected":false,"missing":false,"value":"1st class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"2nd Class","used":false,"image":"","reference":false,"rawLabel":"2nd Class","selected":false,"missing":false,"value":"2nd class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"3rd Class","used":false,"image":"","reference":false,"rawLabel":"3rd Class","selected":false,"missing":false,"value":"3rd class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"4th Class","used":false,"image":"","reference":false,"rawLabel":"4th Class","selected":false,"missing":false,"value":"4th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"5th Class","used":false,"image":"","reference":false,"rawLabel":"5th Class","selected":false,"missing":false,"value":"5th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"6th Class","used":false,"image":"","reference":false,"rawLabel":"6th Class","selected":false,"missing":false,"value":"6th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"7th Class","used":false,"image":"","reference":false,"rawLabel":"7th Class","selected":false,"missing":false,"value":"7th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"8th Class","used":false,"image":"","reference":false,"rawLabel":"8th Class","selected":false,"missing":false,"value":"8th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"9th Class","used":false,"image":"","reference":false,"rawLabel":"9th Class","selected":false,"missing":false,"value":"9th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"10th Class","used":false,"image":"","reference":false,"rawLabel":"10th Class","selected":false,"missing":false,"value":"10th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}}],"usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["grade"]}},{"name":"Created or Updated_1.current.gender","label":"Trigger - Record Created or Updated➛Student Request Record➛Gender","reference":"","reference_display":"Gender","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"gender","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Male","used":false,"image":"","reference":false,"rawLabel":"Male","selected":false,"missing":false,"value":"male","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Female","used":false,"image":"","reference":false,"rawLabel":"Female","selected":false,"missing":false,"value":"female","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Others","used":false,"image":"","reference":false,"rawLabel":"Others","selected":false,"missing":false,"value":"others","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}}],"usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["gender"]}},{"name":"Created or Updated_1.current.student_name","label":"Trigger - Record Created or Updated➛Student Request Record➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"student_name","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["student_name"]}},{"name":"Created or Updated_1.current.gaurdian_name","label":"Trigger - Record Created or Updated➛Student Request Record➛Gaurdian Name","reference":"","reference_display":"Gaurdian Name","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"gaurdian_name","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["gaurdian_name"]}},{"name":"Created or Updated_1.current.mobile_number","label":"Trigger - Record Created or Updated➛Student Request Record➛Mobile Number","reference":"","reference_display":"Mobile Number","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"mobile_number","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["mobile_number"]}},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛Student Request Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"email","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["email"]}},{"name":"6b0c2233-d820-46f9-b4fe-4f4b0322bf78.record","label":"1 - Create Record➛Admission table Record","reference":"x_1210081_school_0_admission_table","reference_display":"Admission table Record","type":"reference","base_type":"reference","usedInstances":{"ce443b02-23d2-42e8-a18f-ace776feb010":["record"],"beb2e510-45e4-42f9-a46b-2fe8bfcd679e":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>09dc1be147601210ce0feb0f316d43af</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Student Details</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>91dc5be147601210ce0feb0f316d4385</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>modified</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ae91fad47201210ce0feb0f316d439d</sys_id>
+        <sys_mod_count>77</sys_mod_count>
+        <sys_name>Student Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_hub_flow_4ae91fad47201210ce0feb0f316d439d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:28</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1210081_school_0_student_request">status=approved<item display_value="Approved" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="approved"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91dc5be147601210ce0feb0f316d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 05:05:57</sys_updated_on>
+        <table>x_1210081_school_0_student_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>4ae91fad47201210ce0feb0f316d439d</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-23 07:12:58</sys_created_on>
+        <sys_id>2896f63d83f0d210a52c5d70deaad328</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 07:12:58</sys_updated_on>
+        <trigger display_value="">91dc5be147601210ce0feb0f316d4385</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4ae91fad47201210ce0feb0f316d439d^sys_idNOT IN2896f63d83f0d210a52c5d70deaad328"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4ae91fad47201210ce0feb0f316d439d^sys_idNOT INc6e91fad47201210ce0feb0f316d439e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4ae91fad47201210ce0feb0f316d439d</id>
+        <name>Student Details</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:09</sys_created_on>
+        <sys_id>c6e91fad47201210ce0feb0f316d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 04:53:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c6e91fad47201210ce0feb0f316d439e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4ae91fad47201210ce0feb0f316d439d^sys_idNOT IN02e91fad47201210ce0feb0f316d43a5,4ee91fad47201210ce0feb0f316d43b5,8ae91fad47201210ce0feb0f316d43b8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Student Details">4ae91fad47201210ce0feb0f316d439d</model>
+        <model_id>4ae91fad47201210ce0feb0f316d439d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:10</sys_created_on>
+        <sys_id>02e91fad47201210ce0feb0f316d43a5</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:35:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02e91fad47201210ce0feb0f316d43a5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Student Details">4ae91fad47201210ce0feb0f316d439d</model>
+        <model_id>4ae91fad47201210ce0feb0f316d439d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:10</sys_created_on>
+        <sys_id>4ee91fad47201210ce0feb0f316d43b5</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:35:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4ee91fad47201210ce0feb0f316d43b5"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Student Details">4ae91fad47201210ce0feb0f316d439d</model>
+        <model_id>4ae91fad47201210ce0feb0f316d439d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:10</sys_created_on>
+        <sys_id>8ae91fad47201210ce0feb0f316d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 04:53:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ae91fad47201210ce0feb0f316d43b8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=4ae91fad47201210ce0feb0f316d439d^sys_idNOT INc8073d6f83551210a52c5d70deaad31e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Student Details">4ae91fad47201210ce0feb0f316d439d</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:35:58</sys_created_on>
+        <sys_id>c8073d6f83551210a52c5d70deaad31e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:28</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4ae91fad47201210ce0feb0f316d439d^sys_idNOT IN04073d6f83551210a52c5d70deaad322,40073d6f83551210a52c5d70deaad321"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Student Details">4ae91fad47201210ce0feb0f316d439d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:35:58</sys_created_on>
+        <sys_id>04073d6f83551210a52c5d70deaad322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:35:58</sys_updated_on>
+        <ui_id>5d5e5f48-6172-49ca-a037-664484c58ff2</ui_id>
+        <values>H4sIAAAAAAAA/9VUwU7jMBD9FeRzFNkJLW1vK6FKHBYkQFwQiibxpLXk2MF2ClnEv+84SQuLthLSwmFzip9n3nszecr9C4MqKGsujA9gKrzp/YVkK7bIxbLEWi7ymstMcJhl1UyecYkAMufAEqZi3Vwgny3FvMpFnmecZ4tTUc7zUmQyB8RTqjPQIFUGKDUWwyFhO9BdBOlVKt9q6O/ekGqrtHRo2Or+IWEtOOoJ6Njq5cNV6FssNJSoqfE28p9cjvyf9fZH8xGvUeUjZp2MhnjC8DmgkUh6NWiPCWvASAjW9WwVXEeAQ5BXRveHiq0yYZy0gWevfhH7gse6Gmm06rAFqyq8auPXGZHBwXRpddeYy9FtXCLW0Onwbomdx0JiG71FtUm6vtnap+u90FqZYYzpUtsK9OEEIThVdgF9XDxqbIioaKBtldkUrbM7NTSTlybdaDqktbZPJOrVxqRjrFJaBaRrws8H+A6cilP8JBpqfh2mLh67qDvOMTkuxqGpwFdOteEH0e1wMvea/HNsJfLl0WiI8i0KQ1L9N0UWG+IJeDIyfd7bnmCtUEv/F7P7zE4CxW4SmHIrviq3Ys6H55vTOxr6z8L77odxJMYPvwH5yGLkfwUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Student Details">4ae91fad47201210ce0feb0f316d439d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:35:58</sys_created_on>
+        <sys_id>40073d6f83551210a52c5d70deaad321</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:35:58</sys_updated_on>
+        <ui_id>6b0c2233-d820-46f9-b4fe-4f4b0322bf78</ui_id>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9FYNnQyAtx0l8K1oYyKEJ0LS5pAlBiSObAEWqXJy4hv+9Q0lOnbQG1O0QoDqJw3nz3iwkb7dElEFZc2F8EKaE642/kGROYDYRJznI6emEsgmjJdAKClrlbCan+fkpGROV/GYM6Mk5m5U5y/MJpZOzKStmecEmMhcAU/Qzogb0DKLQwNvFmKyFjsn4yFNwesa4L1fWak65kLXyHiXxFoHOUvlGi83Nr2DKldLSgSHz27sxaYRD3gCOzLcvtsKmAa5FARpDf0zo0WWncWh+z8BH8k0sL23WySSIjgk8BjASkK8S2sOY1MJIEazbkHlwEQ0OhLwyevPksVImYECSfB+9+orRz2jyqwBTK6Hbw/qoEq6a1OHO0tWn27Q61uayU5vKDJWIOuzLjJbogUtokrbE1lNX1yv78GFPtFCmTaPf1LYU+mklQnCqiAF8KjxoqDEQr0XTKLPkjbNr1YJRS50tNS6yStsHJPVqabJuNDMshcgWaH/Xmm+EUymL9xgGwbs2a/4lJt4uj14x75JGB1861YQ3GG4Nvbjd+I9HXwI9PzoarPg+Cu20+4Ox9yG2AtP+50hpLrfbt9jjAHJk3ehTI9MvZ1kZHVY5ZIeA3e5+mRJ0g5Cda8I4IYeRtZ4JIaKTSpjhMp8hMEJtC5UGPtbFQLnPEBgBaqH0IGTriYjGwVrZ6LmDEo+YHwR+Cdrtfrx3/jftNTTtNy9+qLHVAUZds4ef8H2AhQIt/U+O/P7m7wn4uifob3/2t25/NqPt94/fgE7QK3sCDp7dI4/B3TctdeCXCQkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d^sys_idNOT IN02e91fad47201210ce0feb0f316d43bb,0ee91fad47201210ce0feb0f316d43b7,4ae91fad47201210ce0feb0f316d43b4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:10</sys_created_on>
+        <sys_id>02e91fad47201210ce0feb0f316d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 04:53:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:10</sys_created_on>
+        <sys_id>0ee91fad47201210ce0feb0f316d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 04:53:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 04:53:10</sys_created_on>
+        <sys_id>4ae91fad47201210ce0feb0f316d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 04:53:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4ae91fad47201210ce0feb0f316d439d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>51cbc6c97743011031e3b3c64b5a9907</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>student_details</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.previous_records","label":"Trigger - Record Created or Updated➛Student Request Record➛Previous Records","reference":"","reference_display":"Previous Records","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1210081_school_0_student_request","column_name":"previous_records","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["previous_records"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Request Record","reference":"x_1210081_school_0_student_request","reference_display":"Student Request","type":"reference","base_type":"reference","usedInstances":{"b2023dce-c2ef-4b66-af63-bc3e56b14f4d":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.grade","label":"Trigger - Record Created or Updated➛Student Request Record➛Grade","reference":"","reference_display":"Grade","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"grade","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Nursary","used":false,"image":"","reference":false,"rawLabel":"Nursary","selected":false,"missing":false,"value":"nursary","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Lkg","used":false,"image":"","reference":false,"rawLabel":"Lkg","selected":false,"missing":false,"value":"lkg","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Ukg","used":false,"image":"","reference":false,"rawLabel":"Ukg","selected":false,"missing":false,"value":"ukg","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"1st Class","used":false,"image":"","reference":false,"rawLabel":"1st Class","selected":false,"missing":false,"value":"1st class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"2nd Class","used":false,"image":"","reference":false,"rawLabel":"2nd Class","selected":false,"missing":false,"value":"2nd class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"3rd Class","used":false,"image":"","reference":false,"rawLabel":"3rd Class","selected":false,"missing":false,"value":"3rd class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"4th Class","used":false,"image":"","reference":false,"rawLabel":"4th Class","selected":false,"missing":false,"value":"4th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"5th Class","used":false,"image":"","reference":false,"rawLabel":"5th Class","selected":false,"missing":false,"value":"5th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"6th Class","used":false,"image":"","reference":false,"rawLabel":"6th Class","selected":false,"missing":false,"value":"6th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"7th Class","used":false,"image":"","reference":false,"rawLabel":"7th Class","selected":false,"missing":false,"value":"7th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"8th Class","used":false,"image":"","reference":false,"rawLabel":"8th Class","selected":false,"missing":false,"value":"8th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"9th Class","used":false,"image":"","reference":false,"rawLabel":"9th Class","selected":false,"missing":false,"value":"9th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"10th Class","used":false,"image":"","reference":false,"rawLabel":"10th Class","selected":false,"missing":false,"value":"10th class","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}}],"usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["grade"]}},{"name":"Created or Updated_1.current.gender","label":"Trigger - Record Created or Updated➛Student Request Record➛Gender","reference":"","reference_display":"Gender","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"gender","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Male","used":false,"image":"","reference":false,"rawLabel":"Male","selected":false,"missing":false,"value":"male","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Female","used":false,"image":"","reference":false,"rawLabel":"Female","selected":false,"missing":false,"value":"female","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}},{"label":"Others","used":false,"image":"","reference":false,"rawLabel":"Others","selected":false,"missing":false,"value":"others","parameters":{"name":"x_1210081_school_0_student_request","dependent_values":[""]}}],"usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["gender"]}},{"name":"Created or Updated_1.current.student_name","label":"Trigger - Record Created or Updated➛Student Request Record➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"student_name","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["student_name"]}},{"name":"Created or Updated_1.current.gaurdian_name","label":"Trigger - Record Created or Updated➛Student Request Record➛Gaurdian Name","reference":"","reference_display":"Gaurdian Name","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"gaurdian_name","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["gaurdian_name"]}},{"name":"Created or Updated_1.current.mobile_number","label":"Trigger - Record Created or Updated➛Student Request Record➛Mobile Number","reference":"","reference_display":"Mobile Number","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"mobile_number","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["mobile_number"]}},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛Student Request Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210081_school_0_student_request","column_name":"email","usedInstances":{"6b0c2233-d820-46f9-b4fe-4f4b0322bf78":["email"]}},{"name":"6b0c2233-d820-46f9-b4fe-4f4b0322bf78.record","label":"1 - Create Record➛Admission table Record","reference":"x_1210081_school_0_admission_table","reference_display":"Admission table","type":"reference","base_type":"reference","usedInstances":{"ce443b02-23d2-42e8-a18f-ace776feb010":["record"],"beb2e510-45e4-42f9-a46b-2fe8bfcd679e":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Student Details</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Student Details">4ae91fad47201210ce0feb0f316d439d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09dc1be147601210ce0feb0f316d43af</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:30</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_variable_value action="delete_multiple" query="document_key=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=09dc1be147601210ce0feb0f316d43af^sys_idNOT IN49dc1be147601210ce0feb0f316d43b0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>09dc1be147601210ce0feb0f316d43af</id>
+        <name>Student Details</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:55</sys_created_on>
+        <sys_id>49dc1be147601210ce0feb0f316d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 05:05:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=49dc1be147601210ce0feb0f316d43b0"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=09dc1be147601210ce0feb0f316d43af^sys_idNOT IN01dc1be147601210ce0feb0f316d43e1,8ddc1be147601210ce0feb0f316d43b1,d5dc5be147601210ce0feb0f316d4340"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Student Details">09dc1be147601210ce0feb0f316d43af</model>
+        <model_id>09dc1be147601210ce0feb0f316d43af</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:56</sys_created_on>
+        <sys_id>01dc1be147601210ce0feb0f316d43e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 05:20:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=01dc1be147601210ce0feb0f316d43e1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Student Details">09dc1be147601210ce0feb0f316d43af</model>
+        <model_id>09dc1be147601210ce0feb0f316d43af</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:55</sys_created_on>
+        <sys_id>8ddc1be147601210ce0feb0f316d43b1</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ddc1be147601210ce0feb0f316d43b1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Student Details">09dc1be147601210ce0feb0f316d43af</model>
+        <model_id>09dc1be147601210ce0feb0f316d43af</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:56</sys_created_on>
+        <sys_id>d5dc5be147601210ce0feb0f316d4340</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d5dc5be147601210ce0feb0f316d4340"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=09dc1be147601210ce0feb0f316d43af^sys_idNOT INfc077d6f83551210a52c5d70deaad301"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Student Details">09dc1be147601210ce0feb0f316d43af</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:36:01</sys_created_on>
+        <sys_id>fc077d6f83551210a52c5d70deaad301</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:30</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=09dc1be147601210ce0feb0f316d43af^sys_idNOT IN34077d6f83551210a52c5d70deaad303,b8077d6f83551210a52c5d70deaad31b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Student Details">09dc1be147601210ce0feb0f316d43af</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:36:01</sys_created_on>
+        <sys_id>34077d6f83551210a52c5d70deaad303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:01</sys_updated_on>
+        <ui_id>5d5e5f48-6172-49ca-a037-664484c58ff2</ui_id>
+        <values>H4sIAAAAAAAA/9VUXWvbMBT9K0XPJshxkyV5Gw2BQj9gGXkpxVxb14lAlj1JTuuF/vddWY4TSsMG60v9ZN3Pc451/HRgkDtZ6VttHegc1629FWzBZkk8z7AQs6TgYhxzmIzzifjGBQKIhAOLmPR10xj5ZB5P8yROkjHn49l1nE2TLB6LBBCvqU5DiVTpIFOYdoeI7UE1PkivQtpaQbs5RfKdVMKgZoun54jVYKjHoWGLw7vUvyJQkKGi0p8ewgVErq0/jN2d9149hERlhMfDI4avDrVAAlKAshixErQAV5mWLZxpKGAQxKNW7VCxk9oFoiW8Wvmb1s64ryuQmOW9CMOxW7wMIoVUsQQHa5qeu8YMmlUyRxt0EVhAo9zNeSwUPNb+Y4eWjmrfXamm1A9BFjYMOPsmjcVUYO25evQ9lWK9q15+HJGupO5k6ZOqykENJ3DOyKxxHs+BocKSBqUl1LXU27Q21V52zYSlHG0VHUaFql5oqZVbPQq3dETSwmhF8WUX3oCRnsU9jaHmt4jZ1t4osPbEhYRMfzUeSWDWc0iDDL4lN7J232nBHnu4b9F/+0Ign1+8lXF2uoWdFewne+Lv24+eWElUwn4A52gILAmKwzTAe2eKPnm16ZO9MeLPMkY85d3zxewRCH55d5z9DC/45PkP1qOGJ0EGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Student Details">09dc1be147601210ce0feb0f316d43af</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:36:02</sys_created_on>
+        <sys_id>b8077d6f83551210a52c5d70deaad31b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:36:02</sys_updated_on>
+        <ui_id>6b0c2233-d820-46f9-b4fe-4f4b0322bf78</ui_id>
+        <values>H4sIAAAAAAAA/+1W30/bMBD+Vyo/R5HTlAJ9m4qQkDaQxsYLY5YTX1pLjpP5R6Gr+r/vHKelMNCCthek9am++767786+Xm83hJdONvpCW8d1CddreyHIjMB0zI9yEJPjMc3GGS2BVlDQKs+mYpKfHpOEyICbZkCPTrNpmWd5PqZ0fDLJimleZGORc4AJ4jSvAZGOFwpYd0jIiisfjA8sBKcnGbPlsmkUo4yLWlqLkljHQLCQtlV8ffMWTrmUShjQZHZ7l5CWG8zrwJDZ5plraBWKF6AQ+qVP8FJVbt2+aPt4yB1dRkdjRNBDEwIPDrQAFFJxZSEhNdeCu8asycwZjwYDXFxptd4jllI7DEgC9sHKn5j2hAZcBVhZCdG3P3aJz2Ibo6s6445fY/TSedPDsZuyBBv7IqDiXrn5oS0CrtrwYCIltjuyG+VrfRnbQvYBdreGFm+BCWhDrUF9X0p1vWzuP++UnkvdtaV3qqbkan/izhlZeBf0bAgoqDEQq3nbSr1grWlWsiOjljpdKDyklWruMamVC53Gl55ia3l6jvazznzDjQxVfMIwSN4mxK7tXHFrH2vBRrIfPiiJlfU1sNiGQCmNbN0HTLCCXu42+evZEkBPX32VWfH4CrtxsgdzZZ3vBAb/N09pLjabOb4iB2LUmNHXVoSvLEtLb7DvLj0kbLffF6FAM4gZoYFjuBiWrEMGBvdGSK6Hy3zCwAh1U8gwa74uBsp9wsAIUHOpBjE7JDJaAyvZeMsMlDjEdhD5OWm7/f2H7f+lvYdLe+Nm+fMM7zbLuQQl7AtDvVsrUONrccDikD9bLb1zdNM7+/WS/av1kk1p93lnSyYW+O53zMFfile2zd0vZVAdTMsJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=09dc1be147601210ce0feb0f316d43af"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af^sys_idNOT IN5ddc5be147601210ce0feb0f316d433c,85dc1be147601210ce0feb0f316d43dd,d5dc5be147601210ce0feb0f316d4351"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:56</sys_created_on>
+        <sys_id>5ddc5be147601210ce0feb0f316d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 05:05:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:56</sys_created_on>
+        <sys_id>85dc1be147601210ce0feb0f316d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 05:05:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:56</sys_created_on>
+        <sys_id>d5dc5be147601210ce0feb0f316d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 05:05:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_09dc1be147601210ce0feb0f316d43af"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_09dc1be147601210ce0feb0f316d43af"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_09dc1be147601210ce0feb0f316d43af"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>4ae91fad47201210ce0feb0f316d439d</sys_id>
+        <latest_snapshot>09dc1be147601210ce0feb0f316d43af</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4ae91fad47201210ce0feb0f316d439d^sys_idNOT INd1dc5be147601210ce0feb0f316d4387"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d1dc5be147601210ce0feb0f316d4387","name":"plan","plan_signature":null}}</plan>
+        <plan_id>4ae91fad47201210ce0feb0f316d439d</plan_id>
+        <snapshot>5df6327d83f0d210a52c5d70deaad386</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 05:05:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1dc5be147601210ce0feb0f316d4387</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 07:12:58</sys_updated_on>
+        <trigger display_value="">91dc5be147601210ce0feb0f316d4385</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4ae91fad47201210ce0feb0f316d439d"/>
+</record_update>

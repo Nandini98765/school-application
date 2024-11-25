@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="238a714847601210ce0feb0f316d439a" extends="x_1210081_school_0_student_request" label="Admission table" max_length="40" name="x_1210081_school_0_admission_table" type="collection">
+        <element label="Books Fee" max_length="15" name="books_fee" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Paidamount3" max_length="40" name="paidamount3" type="string"/>
+        <element label="Payingamount2" max_length="40" name="payingamount2" type="integer"/>
+        <element label="Bus Fee" max_length="15" name="bus_fee" read_only="true" type="decimal"/>
+        <element label="Payingamount1" max_length="40" name="payingamount1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="P city" max_length="40" name="p_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of the Previous School" max_length="40" name="name_of_the_previous_school" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P School address" max_length="40" name="p_school_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Relationship to Student" max_length="40" name="relationship_to_student" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Residential Address" max_length="40" name="residential_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip" max_length="40" name="zip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Dates Attended" max_length="40" name="dates_attended" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P zip" max_length="40" name="p_zip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P state" max_length="40" name="p_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Occupation" max_length="40" name="occupation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Paymentstatus1" max_length="40" name="paymentstatus1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Paid" sequence="2" value="paid"/>
+                <element inactive_on_update="false" label="Overdue" sequence="1" value="overdue"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Paymentstatus2" max_length="40" name="paymentstatus2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Paid" sequence="2" value="paid"/>
+                <element inactive_on_update="false" label="Overdue" sequence="1" value="overdue"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="LastPaymentDate1" max_length="40" name="lastpaymentdate1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Paymentstatus3" max_length="40" name="paymentstatus3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Paid" sequence="2" value="paid"/>
+                <element inactive_on_update="false" label="Overdue" sequence="1" value="overdue"/>
+            </choice>
+        </element>
+        <element label="Uniform Fee" max_length="15" name="uniform_fee" read_only="true" type="decimal"/>
+        <element label="Payingamount3" max_length="40" name="payingamount3" type="integer"/>
+        <element label="Tuition Fee" max_length="15" name="student_fee" read_only="true" type="decimal"/>
+        <element label="paid3" max_length="40" name="u_boolean_4" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason of Learning" max_length="40" name="reason_of_learning" type="string"/>
+        <element label="paid2" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="LastPaymentDate3" max_length="40" name="lastpaymentdate3" type="glide_date"/>
+        <element label="Additional Fees:" max_length="40" name="additional_fees" type="boolean"/>
+        <element label="Dueamount3" max_length="40" name="dueamount3" type="integer"/>
+        <element label="Dueamount2" max_length="40" name="dueamount2" type="integer"/>
+        <element attributes="encode_utf8=false" label="Admission.No" max_length="32" name="admission_no" reference="x_1210081_school_0_student_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Admission Date" max_length="40" name="admission_date" type="glide_date"/>
+        <element label="Bus Fee (Term 2)" max_length="40" name="bus_fee_term_2" type="integer"/>
+        <element label="Tuition Fee (Term 2)" max_length="40" name="tuition_fee_term_2" type="integer"/>
+        <element label="Paid3" max_length="40" name="paid3" type="boolean"/>
+        <element label="Tuition Fee (Term 1)" max_length="40" name="tuition_fee_term_1" type="integer"/>
+        <element label="Paid_1" max_length="40" name="paid_1" type="boolean"/>
+        <element label="Tuition Fee (Term 3)" max_length="40" name="tuition_fee_term_3" type="integer"/>
+        <element label="Bus Fee (Term 3)" max_length="40" name="bus_fee_term_3" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="LastPaymentDate2" max_length="40" name="lastpaymentdate2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Status" max_length="40" name="payment_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Overdue" sequence="2" value="overdue"/>
+                <element inactive_on_update="false" label="Paid" sequence="1" value="paid"/>
+            </choice>
+        </element>
+        <element label="Total Fee for the Year:" max_length="40" name="total_fee_for_the_year" type="integer"/>
+        <element label="Dueamount1" max_length="40" name="dueamount1" type="integer"/>
+        <element label="Sports Fee" max_length="40" name="sports_fee" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Paidamount1" max_length="40" name="paidamount1" type="string"/>
+        <element label="Lab Fee" max_length="40" name="lab_fee" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Paidamount2" max_length="40" name="paidamount2" type="string"/>
+        <element label="Tuition Fee" max_length="40" name="u_integer_1" read_only="true" type="integer"/>
+        <element label="Due fee for the year" max_length="200" name="due_fee_for_the_year" type="integer"/>
+        <element label="Paid2:" max_length="40" name="paid2" type="boolean"/>
+        <element label="Bus Fee (Term 1)" max_length="40" name="bus_fee_term_1" type="integer"/>
+        <index name="index">
+            <element name="admission_no"/>
+        </index>
+    </element>
+</database>

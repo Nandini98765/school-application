@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1210081_school_0_request_table</basic_apply_to>
+        <basic_query_from>kb_knowledge</basic_query_from>
+        <insert_callback/>
+        <name>Knowledge article</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 05:41:39</sys_created_on>
+        <sys_id>2d8135bd47101210ce0feb0f316d43b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Knowledge article</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_relationship_2d8135bd47101210ce0feb0f316d43b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 05:52:03</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=2d8135bd47101210ce0feb0f316d43b1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_relationship_2d8135bd47101210ce0feb0f316d43b1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_1210081_school_0_request_table&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;kb_knowledge&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Knowledge article&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-29 05:41:39&lt;/sys_created_on&gt;&lt;sys_id&gt;2d8135bd47101210ce0feb0f316d43b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge article&lt;/sys_name&gt;&lt;sys_package display_value="School management" source="x_1210081_school_0"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School management"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_2d8135bd47101210ce0feb0f316d43b1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-29 05:52:03&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2d8135bd47101210ce0feb0f316d43b1"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>904357178</payload_hash>
+        <record_name>Knowledge article</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 05:52:03</sys_created_on>
+        <sys_id>b744f1b147501210ce0feb0f316d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1919cb0e07d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 05:52:03</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>7f44f1b172501210788239cbcc7af4b4</update_guid>
+        <update_guid_history>7f44f1b172501210788239cbcc7af4b4:904357178,18927dbd071012109aa61939b34c6fb8:-1491874051,93e17dbd34101210b1f0627ddfb1f194:-779295633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 10:10:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>7815599cb4a94a10b6285da4b0ee3900</sys_id>
+        <sys_metadata>2d8135bd47101210ce0feb0f316d43b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge article</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="">19e3642147d85210ce0feb0f316d43e7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_relationship_2d8135bd47101210ce0feb0f316d43b1</sys_update_name>
+        <sys_update_version display_value="sys_relationship_2d8135bd47101210ce0feb0f316d43b1">b744f1b147501210ce0feb0f316d43b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 10:10:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

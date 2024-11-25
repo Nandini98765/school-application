@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1210081_school_0_admission_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>fee details</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var grade = current.grade.toLowerCase();
+    if (grade === 'nursary' || grade === 'lkg' || grade === 'ukg') {
+        current.u_integer_1 = 120000;
+        current.bus_fee = 18000;
+        current.uniform_fee = 1200;
+        current.books_fee = 800;
+
+
+    } else if (grade === '1st class' || grade === '2nd class' ||
+        grade === '3rd class' || grade === '4th class' ||
+        grade === '5th class') {
+        current.u_integer_1 = 150000;
+        current.bus_fee = 18000;
+        current.uniform_fee = 2000;
+        current.books_fee = 1500;
+
+    } else if (grade === '6th class' || grade === '7th class' ||
+        grade === '8th class' || grade === '9th class' ||
+        grade === '10th class') {
+        current.u_integer_1 = 180000;
+        current.bus_fee = 18000;
+        current.uniform_fee = 4000;
+        current.books_fee = 3500;
+
+
+    } else {
+        current.u_integer_1 = '';
+        current.bus_fee = '';
+        current.uniform_fee = '';
+        current.books_fee = '';
+    }
+
+var termT1 =(Math.round(current.u_integer_1))/3;
+
+var termB1 =(Math.round(current.bus_fee))/3;
+
+var termT2 =(Math.round(current.u_integer_1))/3;
+
+var termB2 =(Math.round(current.bus_fee))/3;
+var termT3 =(Math.round(current.u_integer_1))/3;
+
+var termB3 =(Math.round(current.bus_fee))/3;
+
+
+
+current.tuition_fee_term_1=termT1;
+current.bus_fee_term_1=termB1;
+current.tuition_fee_term_2=termT2;
+current.bus_fee_term_2=termB2;
+current.tuition_fee_term_3=termT3;
+current.bus_fee_term_3=termB3;
+
+current.total_fee_for_the_year=termT1+termT2+termT3+termB1+termB2+termB3;
+current.due_fee_for_the_year=termT1+termT2+termT3+termB1+termB2+termB3;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 09:11:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d91a6a6883b81210a52c5d70deaad352</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>fee details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_d91a6a6883b81210a52c5d70deaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 10:14:17</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=d91a6a6883b81210a52c5d70deaad352"/>
+</record_update>

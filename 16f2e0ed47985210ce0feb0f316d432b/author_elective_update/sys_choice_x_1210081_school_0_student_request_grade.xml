@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="grade" table="x_1210081_school_0_student_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>grade</element>
+            <name>x_1210081_school_0_student_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>grade</sys_name>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_choice_x_1210081_school_0_student_request_grade</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nursary</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>nursary</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lkg</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>lkg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ukg</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>ukg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1st Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>1st class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2nd Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>2nd class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3rd Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>3rd class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4th Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>4th class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5th Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>5th class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6th Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>6th class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7th Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>7th class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8th Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>8th class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9th Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>9th class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>grade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10th Class</label>
+            <language>en</language>
+            <name>x_1210081_school_0_student_request</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 05:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 05:36:54</sys_updated_on>
+            <value>10th class</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

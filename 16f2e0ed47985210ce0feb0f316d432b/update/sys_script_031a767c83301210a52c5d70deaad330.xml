@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1210081_school_0_admission_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1210081_school_0_admission_table">due_fee_for_the_yearISNOTEMPTY^EQ<item endquery="false" field="due_fee_for_the_year" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Paymentstatus</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    // Get the current date and month
+    var today = new GlideDate(); // Get current date
+    var currentMonth = today.getMonth(); // Get the current month (0 = January, 6 = July, 9 = October)
+    
+    // Term1 logic: July (6 = July)
+    if (current.u_boolean_1 == true && (currentMonth == 6)) {
+        updatePaymentStatus('Paid'); // Term1 is true and within July -> Paid
+    } else if (current.u_boolean_1 == false && (currentMonth == 6)) {
+        updatePaymentStatus('Overdue'); // Term1 is false and within July -> Overdue
+    }
+
+    // Term2 logic: October (9 = October)
+    if (current.u_boolean_2 == true && (currentMonth == 9)) {
+        updatePaymentStatus('Paid'); // Term2 is true and within October -> Paid
+    } else if (current.u_boolean_2 == false && (currentMonth == 9)) {
+        updatePaymentStatus('Overdue'); // Term2 is false and within October -> Overdue
+    }
+
+    // Term3 logic: January (0 = January)
+    if (current.u_boolean_4 == true && (currentMonth == 0)) {
+        updatePaymentStatus('Paid'); // Term3 is true and within January -> Paid
+    } else if (current.u_boolean_4 == false && (currentMonth == 0)) {
+        updatePaymentStatus('Overdue'); // Term3 is false and within January -> Overdue
+    }
+
+    // Function to update Payment Status
+    function updatePaymentStatus(status) {
+        current.payment_status = status; // Set the payment status to either "Paid" or "Overdue"
+    }
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 06:29:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>031a767c83301210a52c5d70deaad330</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Paymentstatus</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_031a767c83301210a52c5d70deaad330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 09:15:47</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=031a767c83301210a52c5d70deaad330"/>
+</record_update>

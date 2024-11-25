@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>term_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>term1</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Fetch values
+    var tuitionfee1 = g_form.getValue("tuition_fee_term_1");
+    var busfee1 = g_form.getValue("bus_fee_term_1");
+    var totalduefee = g_form.getValue("u_integer_2");
+
+alert(typeof(tuitionfee1))
+    tuitionfee1 = parseFloat(tuitionfee1);
+    busfee1 = parseFloat(busfee1);
+    totalduefee = parseFloat(totalduefee);
+
+    // Calculate term 1 fee and update the total due fee
+    var term_1_fee = tuitionfee1 + busfee1;
+    totalduefee = totalduefee - term_1_fee;
+
+    // Set the updated total due fee in the form
+    g_form.setValue("u_integer_2", totalduefee);
+
+    // Optionally, save the form after setting the value
+    g_form.save();
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 10:19:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ba0399447b41210ce0feb0f316d4325</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>term1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_1ba0399447b41210ce0feb0f316d4325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 11:25:15</sys_updated_on>
+        <table>x_1210081_school_0_admission_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_script_client_1ba0399447b41210ce0feb0f316d4325</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;term_1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;term1&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Fetch values
+    var tuitionfee1 = g_form.getValue("tuition_fee_term_1");
+    var busfee1 = g_form.getValue("bus_fee_term_1");
+    var totalduefee = g_form.getValue("u_integer_2");
+
+alert(typeof(tuitionfee1))
+    tuitionfee1 = parseFloat(tuitionfee1);
+    busfee1 = parseFloat(busfee1);
+    totalduefee = parseFloat(totalduefee);
+
+    // Calculate term 1 fee and update the total due fee
+    var term_1_fee = tuitionfee1 + busfee1;
+    totalduefee = totalduefee - term_1_fee;
+
+    // Set the updated total due fee in the form
+    g_form.setValue("u_integer_2", totalduefee);
+
+    // Optionally, save the form after setting the value
+    g_form.save();
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-18 10:19:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1ba0399447b41210ce0feb0f316d4325&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;term1&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="School management" source="x_1210081_school_0"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School management"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1ba0399447b41210ce0feb0f316d4325&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-18 11:25:15&lt;/sys_updated_on&gt;&lt;table&gt;x_1210081_school_0_admission_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1420439197</payload_hash>
+        <record_name>term1</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 11:25:15</sys_created_on>
+        <sys_id>1750821c47f41210ce0feb0f316d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19204e11eea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 11:25:15</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>db50821cd0f4121088a783126a635dd0</update_guid>
+        <update_guid_history>db50821cd0f4121088a783126a635dd0:1420439197,43ae311c60f412104708b04af34e4951:476060153,b19dbd58c3f41210c0e2c417783eff7b:207395443,033db1985ef4121030d96226cac6e7ae:1109943054,1c0df5106df412100eb71baf65b76ab0:-1484092853,525c7d14caf41210dd68e58a5e607f12:-797743556,1a9b3d141cf41210d450c316891c1ddf:587755017,aaba719c4ab412103d79216c6d70498d:-1658172170,f68a719cbfb4121039947854d6dffe89:-894718035,f4e9f5d013f412101aa4fc6b345f65b1:-1058398115,3c99bd14d6f41210bdf26d567668b1b4:786844416,0c59f1906bf412104bdbed0aafd254d2:2038581664,d3c871143cf412101d111dc2c601fb79:-410829348,bbf731d09ef4121048eed5b3383cac50:-1399663901,4197f19024f412105f4fe2f4d329cdcc:1343507212,6f67f190d5f41210241b92fd3c595fc7:450602806,81143dd8dcb412100273b025931a7aba:2122478480,8f83715c65b412106092e7aa8dad09e4:1473510525,2763391895b41210b4c2a879b16ec858:433794862,506175985eb41210277ea468d222eab4:559109174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 04:32:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>151a11c4c1c24b23ba04862bcf5e2511</sys_id>
+        <sys_metadata>1ba0399447b41210ce0feb0f316d4325</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>term1</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="Admission table">238a714847601210ce0feb0f316d439a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_script_client_1ba0399447b41210ce0feb0f316d4325</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1ba0399447b41210ce0feb0f316d4325">1750821c47f41210ce0feb0f316d43d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 04:32:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

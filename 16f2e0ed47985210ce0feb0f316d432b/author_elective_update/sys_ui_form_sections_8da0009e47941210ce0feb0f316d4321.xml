@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="8da0009e47941210ce0feb0f316d4321" sys_domain="global" table="x_1210081_school_0_fee_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-30 10:43:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4da04c9e47941210ce0feb0f316d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_fee_details" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4321</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4324</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-30 10:43:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-30 11:08:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17460cd247d41210ce0feb0f316d43de</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_fee_details" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4321</sys_ui_form>
+            <sys_ui_section caption="NURSARY_UKG FEE DETAILS" display_value="NURSARY_UKG FEE DETAILS" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">9f460cd247d41210ce0feb0f316d43db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-30 11:14:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-30 11:19:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bc88c9647d41210ce0feb0f316d4357</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_fee_details" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4321</sys_ui_form>
+            <sys_ui_section caption="PRIMARY FEE DETAILS" display_value="PRIMARY FEE DETAILS" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">2bc88c9647d41210ce0feb0f316d4355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-30 12:06:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1210081_school_0_fee_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-30 10:43:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8da0009e47941210ce0feb0f316d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1210081_school_0_fee_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8da0009e47941210ce0feb0f316d4321</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-30 10:43:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_form_sections_8da0009e47941210ce0feb0f316d4321</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="8da0009e47941210ce0feb0f316d4321" sys_domain="global" table="x_1210081_school_0_fee_details" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-30 10:43:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4da04c9e47941210ce0feb0f316d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1210081_school_0_fee_details" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4321</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4324</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-30 10:43:40</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-30 11:08:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>17460cd247d41210ce0feb0f316d43de</sys_id><sys_mod_count>1</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1210081_school_0_fee_details" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4321</sys_ui_form><sys_ui_section caption="NURSARY_UKG FEE DETAILS" display_value="NURSARY_UKG FEE DETAILS" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">9f460cd247d41210ce0feb0f316d43db</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-30 11:14:28</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-30 11:19:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bc88c9647d41210ce0feb0f316d4357</sys_id><sys_mod_count>2</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1210081_school_0_fee_details" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">8da0009e47941210ce0feb0f316d4321</sys_ui_form><sys_ui_section caption="PRIMARY FEE DETAILS" display_value="PRIMARY FEE DETAILS" name="x_1210081_school_0_fee_details" sys_domain="global" view="Default view">2bc88c9647d41210ce0feb0f316d4355</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-30 12:06:26</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1210081_school_0_fee_details</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-30 10:43:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8da0009e47941210ce0feb0f316d4321</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1210081_school_0_fee_details</sys_name><sys_overrides/><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_ui_form_sections_8da0009e47941210ce0feb0f316d4321</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-30 10:43:40</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1122319129</payload_hash>
+        <record_name>Fee details</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-30 12:06:26</sys_created_on>
+        <sys_id>ed9394d647181210ce0feb0f316d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191a32dfff60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-30 12:06:26</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>a59394d6ad1812100924f73edbe28a72</update_guid>
+        <update_guid_history>a59394d6ad1812100924f73edbe28a72:-1122319129,1d9394d6b11812106361d4a8eae1a26d:1734225030,9373d0d686181210d95145b19203d9a7:-1083205888,0373d0d60c181210353d4058ce4806a4:1081829154,efc88c96b0d41210789f6287a1363d58:-2081047125,58b7ccd67bd412101ebca0131e58363e:-1206492858,0cb7ccd6d2d41210fdd5459b08727939:1619191525,9b460cd21dd41210621eec0c432dc2df:-1710858108,0da04c9e0c941210c393cdcd0ee8fc1e:-1748403544,89a0009e7f941210ad2068fbe6cc9a23:731851874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 12:16:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>0134a9b8f9494c2680e7faf08938d1e4</sys_id>
+        <sys_metadata>8da0009e47941210ce0feb0f316d4321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1210081_school_0_fee_details</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="">b650085e47941210ce0feb0f316d4368</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_8da0009e47941210ce0feb0f316d4321</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_8da0009e47941210ce0feb0f316d4321">ed9394d647181210ce0feb0f316d4372</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 12:16:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_boolean_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>due fee(term)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    // Check if the form is loading or if newValue is empty
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var test = g_form.getValue("tuition_fee_term_1");
+    var number = parseInt(test.replace(/,/g, ''), 10);
+    // Retrieve the fee values and the boolean
+    var tuitionFee1 = g_form.getValue("tuition_fee_term_1");
+    var busFee1 = g_form.getValue("bus_fee_term_1");
+    var totalDueFee = g_form.getValue("due_fee_for_the_year");
+
+    tuitionFee1 = parseInt(tuitionFee1.replace(/,/g, ''), 10);
+    busFee1 = parseInt(busFee1.replace(/,/g, ''), 10);
+    totalDueFee = parseInt(totalDueFee.replace(/,/g, ''), 10);
+
+
+
+
+
+    var term1check = g_form.getValue("u_boolean_1");
+
+  
+
+    // Check if term1check is "true"
+    if (term1check === "true") {
+        var term1 = tuitionFee1 + busFee1;
+        var final = totalDueFee - term1;
+        g_form.setValue("due_fee_for_the_year", final);
+    } else {
+        var term2 = tuitionFee1 + busFee1;
+        var final2 = totalDueFee + term2;
+        g_form.setValue("due_fee_for_the_year", final2);
+    }
+
+    // Optionally save the form
+    g_form.save();
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 04:56:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3c0b12c83741210a52c5d70deaad3d9</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>due fee(term)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_d3c0b12c83741210a52c5d70deaad3d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 11:43:25</sys_updated_on>
+        <table>x_1210081_school_0_admission_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

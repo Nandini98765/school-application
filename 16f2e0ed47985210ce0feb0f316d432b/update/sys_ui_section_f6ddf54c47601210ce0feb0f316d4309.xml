@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Previous School" section_id="f6ddf54c47601210ce0feb0f316d4309" sys_domain="global" table="x_1210081_school_0_admission_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_of_the_previous_school</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>8fddf54c47601210ce0feb0f316d4356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>p_city</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>07ddf54c47601210ce0feb0f316d4357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>p_state</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>8bddf54c47601210ce0feb0f316d4357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>p_zip</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>03ddf54c47601210ce0feb0f316d4358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>87ddf54c47601210ce0feb0f316d4358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>p_school_address</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>0fddf54c47601210ce0feb0f316d4358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>previous_records</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>83ddf54c47601210ce0feb0f316d4359</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dates_attended</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>0bddf54c47601210ce0feb0f316d4359</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_of_learning</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:07</sys_created_on>
+            <sys_id>8fddf54c47601210ce0feb0f316d4359</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Previous School</caption>
+            <header>false</header>
+            <name>x_1210081_school_0_admission_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6ddf54c47601210ce0feb0f316d4309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1210081_school_0_admission_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_ui_section_f6ddf54c47601210ce0feb0f316d4309</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

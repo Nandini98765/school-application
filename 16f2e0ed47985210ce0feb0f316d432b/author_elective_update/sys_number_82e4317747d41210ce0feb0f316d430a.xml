@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1210081_school_0_student_request">x_1210081_school_0_student_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>STUD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 11:02:31</sys_created_on>
+        <sys_id>82e4317747d41210ce0feb0f316d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STUD</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_number_82e4317747d41210ce0feb0f316d430a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:02:31</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_number_82e4317747d41210ce0feb0f316d430a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1210081_school_0_student_request">x_1210081_school_0_student_request</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>STUD</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 11:02:31</sys_created_on><sys_id>82e4317747d41210ce0feb0f316d430a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>STUD</sys_name><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_number_82e4317747d41210ce0feb0f316d430a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 11:02:31</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-911098118</payload_hash>
+        <record_name>STUD</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 11:02:32</sys_created_on>
+        <sys_id>8ae4317747d41210ce0feb0f316d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bcb34a300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:02:32</sys_updated_on>
+        <type>Number</type>
+        <update_guid>8ee43177a7d4121010764d3ae44c8528</update_guid>
+        <update_guid_history>8ee43177a7d4121010764d3ae44c8528:-911098118</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 11:04:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>c799df9c3fc64f29ae31704a5d009d29</sys_id>
+        <sys_metadata>82e4317747d41210ce0feb0f316d430a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STUD</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="">f5e3f5f347d41210ce0feb0f316d4399</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_number_82e4317747d41210ce0feb0f316d430a</sys_update_name>
+        <sys_update_version display_value="sys_number_82e4317747d41210ce0feb0f316d430a">8ae4317747d41210ce0feb0f316d4329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:04:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

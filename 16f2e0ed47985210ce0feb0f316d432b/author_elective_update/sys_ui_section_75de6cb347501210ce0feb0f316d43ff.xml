@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Student Fee Details" section_id="75de6cb347501210ce0feb0f316d43ff" sys_domain="global" table="x_1210081_school_0_admission_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lkg_fee</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>3b453c7f47501210ce0feb0f316d433e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ukg_fee</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>f3453c7f47501210ce0feb0f316d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_1st_class_fee</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>7b453c7f47501210ce0feb0f316d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_2nd_class_fee</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>ff453c7f47501210ce0feb0f316d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_3rd_class_fee</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>77453c7f47501210ce0feb0f316d4340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_4th_class_fee</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>fb453c7f47501210ce0feb0f316d4340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_5th_class_fee</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>73453c7f47501210ce0feb0f316d4341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6th_class_fee</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>f7453c7f47501210ce0feb0f316d4341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_7th_class_fee</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:39</sys_created_on>
+            <sys_id>7f453c7f47501210ce0feb0f316d4341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_8th_class_fee</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:40</sys_created_on>
+            <sys_id>f3453c7f47501210ce0feb0f316d4342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_9th_class_fee</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:40</sys_created_on>
+            <sys_id>7b453c7f47501210ce0feb0f316d4342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_10th_class_fee</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 06:24:40</sys_created_on>
+            <sys_id>ff453c7f47501210ce0feb0f316d4342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 06:24:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Student Fee Details</caption>
+            <header>false</header>
+            <name>x_1210081_school_0_admission_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 05:56:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75de6cb347501210ce0feb0f316d43ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1210081_school_0_admission_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_ui_section_75de6cb347501210ce0feb0f316d43ff</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 05:56:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_section_75de6cb347501210ce0feb0f316d43ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Student Fee Details" section_id="75de6cb347501210ce0feb0f316d43ff" sys_domain="global" table="x_1210081_school_0_admission_table" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>lkg_fee</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>3b453c7f47501210ce0feb0f316d433e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ukg_fee</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>f3453c7f47501210ce0feb0f316d433f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_1st_class_fee</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>7b453c7f47501210ce0feb0f316d433f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_2nd_class_fee</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>ff453c7f47501210ce0feb0f316d433f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_3rd_class_fee</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>77453c7f47501210ce0feb0f316d4340</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_4th_class_fee</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>fb453c7f47501210ce0feb0f316d4340</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_5th_class_fee</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>73453c7f47501210ce0feb0f316d4341</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_6th_class_fee</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>f7453c7f47501210ce0feb0f316d4341</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_7th_class_fee</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:39</sys_created_on><sys_id>7f453c7f47501210ce0feb0f316d4341</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_8th_class_fee</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:40</sys_created_on><sys_id>f3453c7f47501210ce0feb0f316d4342</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_9th_class_fee</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:40</sys_created_on><sys_id>7b453c7f47501210ce0feb0f316d4342</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_10th_class_fee</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 06:24:40</sys_created_on><sys_id>ff453c7f47501210ce0feb0f316d4342</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Student Fee Details" display_value="Student Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">75de6cb347501210ce0feb0f316d43ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 06:24:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Student Fee Details</caption><header>false</header><name>x_1210081_school_0_admission_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 05:56:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>75de6cb347501210ce0feb0f316d43ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1210081_school_0_admission_table</sys_name><sys_overrides/><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_ui_section_75de6cb347501210ce0feb0f316d43ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 05:56:24</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1897240554</payload_hash>
+        <record_name>Admission table</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 06:24:40</sys_created_on>
+        <sys_id>bb453c7f47501210ce0feb0f316d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bbb4e4b60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 06:24:40</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>33453c7fac5012103b803e3ec0e45d5e</update_guid>
+        <update_guid_history>33453c7fac5012103b803e3ec0e45d5e:1897240554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 12:17:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5f354fe60e7e402790c5919556aa1639</sys_id>
+        <sys_metadata>75de6cb347501210ce0feb0f316d43ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Fee Details</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="">114537ce47541210ce0feb0f316d4339</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_75de6cb347501210ce0feb0f316d43ff</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_75de6cb347501210ce0feb0f316d43ff">bb453c7f47501210ce0feb0f316d435e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 12:17:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

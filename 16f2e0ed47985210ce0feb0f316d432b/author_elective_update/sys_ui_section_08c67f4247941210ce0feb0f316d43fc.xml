@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="knowledge articles" section_id="08c67f4247941210ce0feb0f316d43fc" sys_domain="global" table="x_1210081_school_0_admission_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_1210081_school_0_request_table.REL:c0c9760a47101210ce0feb0f316d439a</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-30 10:02:37</sys_created_on>
+            <sys_id>33373b8247941210ce0feb0f316d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="knowledge articles" display_value="knowledge articles" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">08c67f4247941210ce0feb0f316d43fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-30 10:02:37</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>knowledge articles</caption>
+            <header>false</header>
+            <name>x_1210081_school_0_admission_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-30 10:00:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08c67f4247941210ce0feb0f316d43fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1210081_school_0_admission_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_ui_section_08c67f4247941210ce0feb0f316d43fc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-30 10:00:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_section_08c67f4247941210ce0feb0f316d43fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="knowledge articles" section_id="08c67f4247941210ce0feb0f316d43fc" sys_domain="global" table="x_1210081_school_0_admission_table" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>REL.x_1210081_school_0_request_table.REL:c0c9760a47101210ce0feb0f316d439a</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-30 10:02:37</sys_created_on><sys_id>33373b8247941210ce0feb0f316d43c1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="knowledge articles" display_value="knowledge articles" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">08c67f4247941210ce0feb0f316d43fc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-30 10:02:37</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>knowledge articles</caption><header>false</header><name>x_1210081_school_0_admission_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-30 10:00:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>08c67f4247941210ce0feb0f316d43fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1210081_school_0_admission_table</sys_name><sys_overrides/><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_ui_section_08c67f4247941210ce0feb0f316d43fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-30 10:00:27</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1420987943</payload_hash>
+        <record_name>Admission table</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-30 10:02:37</sys_created_on>
+        <sys_id>7f373b8247941210ce0feb0f316d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191a2bca4b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-30 10:02:37</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>37373b8221941210792e94fb113d11c2</update_guid>
+        <update_guid_history>37373b8221941210792e94fb113d11c2:-1420987943,88c67f425d941210064f40fe6f0ed3fe:-1496554154</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 12:17:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>141ff5e9589244749baaf6a26c00d2e1</sys_id>
+        <sys_metadata>08c67f4247941210ce0feb0f316d43fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>knowledge articles</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="">114537ce47541210ce0feb0f316d4339</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_08c67f4247941210ce0feb0f316d43fc</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_08c67f4247941210ce0feb0f316d43fc">7f373b8247941210ce0feb0f316d43c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 12:17:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

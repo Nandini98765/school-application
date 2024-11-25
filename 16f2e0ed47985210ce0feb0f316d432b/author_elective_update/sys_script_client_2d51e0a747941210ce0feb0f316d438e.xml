@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>admission_no</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>auto populate data through reference tab</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Use a callback function to handle the reference data
+    g_form.getReference("admission_no", function(ve) {
+        if (!ve) {
+            console.error("Reference record not found for admission_number.");
+            return;
+        }
+
+        // Set values and disable fields if the value exists
+        g_form.setValue('request_date', ve.request_date);
+        g_form.setValue('student_name', ve.student_name);
+        g_form.setValue('grade', ve.grade);
+        g_form.setValue('guardian_name', ve.guardian_name);
+        g_form.setValue('mobile_number', ve.mobile_number);
+        g_form.setValue('email', ve.email);
+        g_form.setValue('marks', ve.marks);
+        g_form.setValue('result', ve.result);
+        g_form.setValue('previous_records', ve.previous_records);
+
+        g_form.setDisabled('u_admin_date', true);
+        g_form.setDisabled('u_student_name', true);
+        g_form.setDisabled('u_grade', true);
+        g_form.setDisabled('u_guardian_name', true);
+        g_form.setDisabled('u_mobile_number', true);
+        g_form.setDisabled('u_email', true);
+        g_form.setDisabled('u_marks', true);
+        g_form.setDisabled('u_result', true);
+        g_form.setDisabled('u_previous_records', true);
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 10:36:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d51e0a747941210ce0feb0f316d438e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>auto populate data through reference tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_2d51e0a747941210ce0feb0f316d438e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 10:59:26</sys_updated_on>
+        <table>x_1210081_school_0_admission_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_script_client_2d51e0a747941210ce0feb0f316d438e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;admission_no&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;auto populate data through reference tab&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Use a callback function to handle the reference data
+    g_form.getReference("admission_no", function(ve) {
+        if (!ve) {
+            console.error("Reference record not found for admission_number.");
+            return;
+        }
+
+        // Set values and disable fields if the value exists
+        g_form.setValue('request_date', ve.request_date);
+        g_form.setValue('student_name', ve.student_name);
+        g_form.setValue('grade', ve.grade);
+        g_form.setValue('guardian_name', ve.guardian_name);
+        g_form.setValue('mobile_number', ve.mobile_number);
+        g_form.setValue('email', ve.email);
+        g_form.setValue('marks', ve.marks);
+        g_form.setValue('result', ve.result);
+        g_form.setValue('previous_records', ve.previous_records);
+
+        g_form.setDisabled('u_admin_date', true);
+        g_form.setDisabled('u_student_name', true);
+        g_form.setDisabled('u_grade', true);
+        g_form.setDisabled('u_guardian_name', true);
+        g_form.setDisabled('u_mobile_number', true);
+        g_form.setDisabled('u_email', true);
+        g_form.setDisabled('u_marks', true);
+        g_form.setDisabled('u_result', true);
+        g_form.setDisabled('u_previous_records', true);
+    });
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-03 10:36:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2d51e0a747941210ce0feb0f316d438e&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;auto populate data through reference tab&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="School management" source="x_1210081_school_0"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="School management"&gt;16f2e0ed47985210ce0feb0f316d432b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2d51e0a747941210ce0feb0f316d438e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-03 10:59:26&lt;/sys_updated_on&gt;&lt;table&gt;x_1210081_school_0_admission_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2006100949</payload_hash>
+        <record_name>auto populate data through reference tab</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 10:59:26</sys_created_on>
+        <sys_id>4f9aa4a347d41210ce0feb0f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b78a18190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 10:59:26</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cf9a6cef93941210678c782476510171</update_guid>
+        <update_guid_history>cf9a6cef93941210678c782476510171:-2006100949,a988e86f31941210a4ec6c4212669d86:318144089,c4d760af2494121082a40d63b09c5418:173586570,144720af43941210ec29f424b57ea228:223659614,655524ebde941210feaeeb8c94b08e2f:2087182166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 12:17:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>423ba2a2a25f4ca0af17788136827240</sys_id>
+        <sys_metadata>2d51e0a747941210ce0feb0f316d438e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auto populate data through reference tab</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="">114537ce47541210ce0feb0f316d4339</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_script_client_2d51e0a747941210ce0feb0f316d438e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_2d51e0a747941210ce0feb0f316d438e">4f9aa4a347d41210ce0feb0f316d43ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 12:17:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

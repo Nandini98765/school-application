@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d8dcb65747e01210ce0feb0f316d43a8" label="Student Progress" max_length="40" name="x_1210081_school_0_student_progress" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="P Gmail" max_length="40" name="gmail" type="string"/>
+        <element label="Maths" max_length="40" name="maths" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Section" max_length="40" name="section" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A section" sequence="0" value="a section"/>
+                <element inactive_on_update="false" label="B section" sequence="1" value="b section"/>
+                <element inactive_on_update="false" label="C section" sequence="2" value="c section"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="P Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation=" &#13;&#10;" label="percentage" max_length="40" name="average" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Telugu" max_length="40" name="telugu" type="string"/>
+        <element label="telugu" max_length="40" name="u_integer_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Result" max_length="40" name="result" type="string">
+            <choice>
+                <element inactive_on_update="false" label="distinction" sequence="0" value="distinction"/>
+                <element inactive_on_update="false" label="pass" sequence="1" value="pass"/>
+                <element inactive_on_update="false" label="fail" sequence="2" value="fail"/>
+            </choice>
+        </element>
+        <element label="Social" max_length="40" name="social" type="integer"/>
+        <element label="Hindi" max_length="40" name="hindi" type="integer"/>
+        <element label="Total" max_length="40" name="total" type="integer"/>
+        <element label="Telugu1" max_length="40" name="telugu1" type="integer"/>
+        <element label="Science" max_length="40" name="science" type="integer"/>
+        <element label="English" max_length="40" name="u_integer_3" type="integer"/>
+        <element attributes="encode_utf8=false" label="Admission Number" max_length="32" name="admission_number" reference="x_1210081_school_0_admission_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Gaurdian Name" max_length="40" name="gaurdian_name" type="string"/>
+        <index name="index">
+            <element name="admission_number"/>
+        </index>
+    </element>
+</database>

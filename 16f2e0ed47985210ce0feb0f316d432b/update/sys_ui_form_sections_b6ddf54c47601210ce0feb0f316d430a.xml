@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b6ddf54c47601210ce0feb0f316d430a" sys_domain="global" table="x_1210081_school_0_admission_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2ddf54c47601210ce0feb0f316d430e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_admission_table" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">b6ddf54c47601210ce0feb0f316d430a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">32ca394847601210ce0feb0f316d434d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>beddf54c47601210ce0feb0f316d430e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_admission_table" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">b6ddf54c47601210ce0feb0f316d430a</sys_ui_form>
+            <sys_ui_section caption="Parent INFO" display_value="Parent INFO" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">faddf54c47601210ce0feb0f316d4308</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7eddf54c47601210ce0feb0f316d431e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_admission_table" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">b6ddf54c47601210ce0feb0f316d430a</sys_ui_form>
+            <sys_ui_section caption="Previous School" display_value="Previous School" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">f6ddf54c47601210ce0feb0f316d4309</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-13 10:05:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a2e3b2247e41210ce0feb0f316d43f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_admission_table" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">b6ddf54c47601210ce0feb0f316d430a</sys_ui_form>
+            <sys_ui_section caption="Fee Details" display_value="Fee Details" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">aa2e3fee47a41210ce0feb0f316d43f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-13 10:05:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 08:43:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55180f2b47e45210ce0feb0f316d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1210081_school_0_admission_table" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">b6ddf54c47601210ce0feb0f316d430a</sys_ui_form>
+            <sys_ui_section caption="Payment Method" display_value="Payment Method" name="x_1210081_school_0_admission_table" sys_domain="global" view="Default view">5d180f2b47e45210ce0feb0f316d4381</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 08:43:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1210081_school_0_admission_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 06:20:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6ddf54c47601210ce0feb0f316d430a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1210081_school_0_admission_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b6ddf54c47601210ce0feb0f316d430a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 06:20:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>whatsapp.xml</formatter>
+        <name>whatsapp</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 05:58:15</sys_created_on>
+        <sys_id>7585bdf147501210ce0feb0f316d43a8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>whatsapp</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_ui_formatter_7585bdf147501210ce0feb0f316d43a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:24:25</sys_updated_on>
+        <table>x_1210081_school_0_student_request</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_formatter_7585bdf147501210ce0feb0f316d43a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module/><formatter>whatsapp.xml</formatter><name>whatsapp</name><seismic_component/><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-29 05:58:15</sys_created_on><sys_id>7585bdf147501210ce0feb0f316d43a8</sys_id><sys_mod_count>3</sys_mod_count><sys_name>whatsapp</sys_name><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_ui_formatter_7585bdf147501210ce0feb0f316d43a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 11:24:25</sys_updated_on><table>x_1210081_school_0_student_request</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+        <payload_hash>119357847</payload_hash>
+        <record_name>whatsapp</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 11:24:25</sys_created_on>
+        <sys_id>fae97dfb47d41210ce0feb0f316d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bcc7556b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:24:25</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>72e97dfbb8d4121071aa4ef9ac50c2b5</update_guid>
+        <update_guid_history>72e97dfbb8d4121071aa4ef9ac50c2b5:119357847,17bcf53df2501210c6dc52a5d3dabfa6:-844357020,ee46f5b1465012105d0dcb47a8f2a8dc:819190404,eab575b1f75012101a15fb817e8f0a3e:-844357020</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 05:18:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>1f338f8712304b1e842b83813c74e179</sys_id>
+        <sys_metadata>7585bdf147501210ce0feb0f316d43a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>whatsapp</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent display_value="Student Request">a99571b747d41210ce0feb0f316d4375</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_7585bdf147501210ce0feb0f316d43a8</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_7585bdf147501210ce0feb0f316d43a8">fae97dfb47d41210ce0feb0f316d43b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 05:18:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>admission_no</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Admission</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   // Get reference record of admission number
+   g_form.getReference('admission_no', function(ve) {
+      if (ve) {
+         // Set values for the respective fields from the referenced record 
+         g_form.setValue('student_name', ve.student_name);
+         g_form.setValue('grade', ve.grade);
+         g_form.setValue('gender', ve.gender);
+         g_form.setValue('gaurdian_name', ve.gaurdian_name);
+         g_form.setValue('mobile_number', ve.mobile_number); 
+         g_form.setValue('email', ve.email); // New email field
+         
+         // Disable fields to prevent further editing
+         g_form.setDisabled('student_name', true);
+         g_form.setDisabled('grade', true);
+         g_form.setDisabled('gender', true);
+         g_form.setDisabled('gaurdian_name', true);
+         g_form.setDisabled('mobile_number', true); 
+         g_form.setDisabled('email', true); // Disable email field
+      }
+   });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 09:19:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ac16a4c47241210ce0feb0f316d43b9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Admission</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_client_0ac16a4c47241210ce0feb0f316d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 09:26:59</sys_updated_on>
+        <table>x_1210081_school_0_admission_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1210081_school_0.Classlessdemo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Classlessdemo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function demotest(a,b) {
+    var c = a + b;
+    gs.addInfoMessage("Here the c value is " + a + " + " + b + " = " + c);
+}
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 09:26:53</sys_created_on>
+        <sys_id>cd9b269e47641210ce0feb0f316d4384</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Classlessdemo</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_script_include_cd9b269e47641210ce0feb0f316d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 09:39:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

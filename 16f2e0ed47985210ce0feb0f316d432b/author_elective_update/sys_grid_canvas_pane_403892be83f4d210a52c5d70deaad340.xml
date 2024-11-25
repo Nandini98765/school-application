@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="New Tab 1">75e7567e83f4d210a52c5d70deaad37b</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2024-09-26 00:34:08">c43892be83f4d210a52c5d70deaad33e</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 07:34:08</sys_created_on>
+        <sys_id>403892be83f4d210a52c5d70deaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>75e7567e83f4d210a52c5d70deaad37b</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_403892be83f4d210a52c5d70deaad340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 07:34:08</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_grid_canvas_pane_403892be83f4d210a52c5d70deaad340</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="New Tab 1">75e7567e83f4d210a52c5d70deaad37b</grid_canvas><height>10</height><portal_widget display_value="Created 2024-09-26 00:34:08">c43892be83f4d210a52c5d70deaad33e</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-26 07:34:08</sys_created_on><sys_id>403892be83f4d210a52c5d70deaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_name>75e7567e83f4d210a52c5d70deaad37b</sys_name><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_grid_canvas_pane_403892be83f4d210a52c5d70deaad340</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-26 07:34:08</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1144804292</payload_hash>
+        <record_name>75e7567e83f4d210a52c5d70deaad37b</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 07:34:08</sys_created_on>
+        <sys_id>8c3892be83f4d210a52c5d70deaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922d4068870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 07:34:08</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>803892be3cf4d210ee0a5bfa95ae8941</update_guid>
+        <update_guid_history>803892be3cf4d210ee0a5bfa95ae8941:1144804292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 07:36:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>74026fb96f4941479a57deae5f80fc39</sys_id>
+        <sys_metadata>403892be83f4d210a52c5d70deaad340</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>75e7567e83f4d210a52c5d70deaad37b</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_403892be83f4d210a52c5d70deaad340</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_403892be83f4d210a52c5d70deaad340">8c3892be83f4d210a52c5d70deaad341</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 07:36:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

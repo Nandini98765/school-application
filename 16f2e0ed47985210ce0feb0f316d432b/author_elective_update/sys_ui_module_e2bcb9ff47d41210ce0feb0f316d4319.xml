@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="School admissions">1123a13f47541210ce0feb0f316d43a5</application>
+        <filter/>
+        <name>Admission Details</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1210081_school_0.admission_details_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 11:36:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2bcb9ff47d41210ce0feb0f316d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admission Details</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_update_name>sys_ui_module_e2bcb9ff47d41210ce0feb0f316d4319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:36:42</sys_updated_on>
+        <table>x_1210081_school_0_admission_details</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="School management">16f2e0ed47985210ce0feb0f316d432b</application>
+        <file_path/>
+        <instance_id>8271f4891b8e7998699443f4bd4bcbf0</instance_id>
+        <instance_name>dev191551</instance_name>
+        <name>sys_ui_module_e2bcb9ff47d41210ce0feb0f316d4319</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="School admissions">1123a13f47541210ce0feb0f316d43a5</application><filter/><name>Admission Details</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1210081_school_0.admission_details_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 11:36:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e2bcb9ff47d41210ce0feb0f316d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Admission Details</sys_name><sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package><sys_policy/><sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope><sys_update_name>sys_ui_module_e2bcb9ff47d41210ce0feb0f316d4319</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 11:36:42</sys_updated_on><table>x_1210081_school_0_admission_details</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1283610392</payload_hash>
+        <record_name>Admission Details</record_name>
+        <reverted_from/>
+        <source>96f2e0ed47985210ce0feb0f316d432f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 11:36:42</sys_created_on>
+        <sys_id>2abcb9ff47d41210ce0feb0f316d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bcd292350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 11:36:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2ebcb9ff87d41210b7c0220474de911a</update_guid>
+        <update_guid_history>2ebcb9ff87d41210b7c0220474de911a:-1283610392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 06:04:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>647cb45cbe914492b4ee1a637b5b8959</sys_id>
+        <sys_metadata>e2bcb9ff47d41210ce0feb0f316d4319</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admission Details</sys_name>
+        <sys_package display_value="School management" source="x_1210081_school_0">16f2e0ed47985210ce0feb0f316d432b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="School management">16f2e0ed47985210ce0feb0f316d432b</sys_scope>
+        <sys_scope_delete display_value="">1edbededd94f404a8620ebb89df2a4c4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_e2bcb9ff47d41210ce0feb0f316d4319</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_e2bcb9ff47d41210ce0feb0f316d4319">2abcb9ff47d41210ce0feb0f316d431b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 06:04:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
